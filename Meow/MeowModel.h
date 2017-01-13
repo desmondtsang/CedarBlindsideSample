@@ -10,4 +10,9 @@
 
 @interface MeowModel : NSObject
 
+@property (nonatomic, strong, readonly) NSString *name;
+@property (nonatomic, strong, readonly) NSString *breed;
+
+- (instancetype)initWithName:(NSString *)name breed:(NSString *)breed;
+
 @end

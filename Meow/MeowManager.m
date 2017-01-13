@@ -9,6 +9,12 @@
 #import "MeowManager.h"
 #import "Blindside.h"
 
+@interface MeowManager ()
+
+@property (nonatomic, strong) NSMutableArray *cats;
+
+@end
+
 @implementation MeowManager
 
 #pragma mark - Blindside
@@ -22,13 +28,25 @@
 - (instancetype)init {
     self = [super init];
     if (self) {
-        // Meow
+        self.cats = [NSMutableArray new];
     }
     return self;
 }
 
 #pragma mark - Public
 
-// Manage something blah blah
+- (NSArray <MeowModel *> *)getMeows {
+    return [NSArray arrayWithArray:_cats];
+}
+
+- (void)addMeow:(MeowModel *)meow {
+    if (meow != nil) {
+        [self.cats addObject:meow];
+    }
+}
+
+- (void)addMeows:(NSArray <MeowModel *> *)meows {
+    
+}
 
 @end

@@ -16,7 +16,6 @@
 		F565772D1E26F1AF001DEE77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F565772C1E26F1AF001DEE77 /* Assets.xcassets */; };
 		F56577301E26F1AF001DEE77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F565772E1E26F1AF001DEE77 /* LaunchScreen.storyboard */; };
 		F56577651E26F5D8001DEE77 /* MeowBlindsideModule.m in Sources */ = {isa = PBXBuildFile; fileRef = F56577641E26F5D8001DEE77 /* MeowBlindsideModule.m */; };
-		F565776A1E26F662001DEE77 /* MeowTypeProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = F56577691E26F662001DEE77 /* MeowTypeProvider.m */; };
 		F56577701E26F688001DEE77 /* MeowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F565776F1E26F688001DEE77 /* MeowModel.m */; };
 		F56577731E26F69F001DEE77 /* MeowManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F56577721E26F69F001DEE77 /* MeowManager.m */; };
 		F565777A1E26F876001DEE77 /* ViewControllerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F56577791E26F876001DEE77 /* ViewControllerFactory.m */; };
@@ -24,6 +23,7 @@
 		F5BFF7831E29168600D60EC8 /* MeowSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BFF7821E29168600D60EC8 /* MeowSpecs.m */; };
 		F5BFF78B1E2916F300D60EC8 /* MeowActionProviderSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = F5BFF78A1E2916F300D60EC8 /* MeowActionProviderSpec.mm */; };
 		F5BFF78F1E29174900D60EC8 /* TestBlindsideModule.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BFF78E1E29174900D60EC8 /* TestBlindsideModule.m */; };
+		F5BFF7911E29206700D60EC8 /* MeowManagerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = F5BFF7901E29206700D60EC8 /* MeowManagerSpec.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,8 +65,6 @@
 		F56577311E26F1AF001DEE77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F56577631E26F5D8001DEE77 /* MeowBlindsideModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeowBlindsideModule.h; sourceTree = "<group>"; };
 		F56577641E26F5D8001DEE77 /* MeowBlindsideModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeowBlindsideModule.m; sourceTree = "<group>"; };
-		F56577681E26F662001DEE77 /* MeowTypeProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeowTypeProvider.h; sourceTree = "<group>"; };
-		F56577691E26F662001DEE77 /* MeowTypeProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeowTypeProvider.m; sourceTree = "<group>"; };
 		F565776E1E26F688001DEE77 /* MeowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeowModel.h; sourceTree = "<group>"; };
 		F565776F1E26F688001DEE77 /* MeowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeowModel.m; sourceTree = "<group>"; };
 		F56577711E26F69F001DEE77 /* MeowManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeowManager.h; sourceTree = "<group>"; };
@@ -81,6 +79,7 @@
 		F5BFF78A1E2916F300D60EC8 /* MeowActionProviderSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MeowActionProviderSpec.mm; sourceTree = "<group>"; };
 		F5BFF78D1E29174900D60EC8 /* TestBlindsideModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestBlindsideModule.h; sourceTree = "<group>"; };
 		F5BFF78E1E29174900D60EC8 /* TestBlindsideModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestBlindsideModule.m; sourceTree = "<group>"; };
+		F5BFF7901E29206700D60EC8 /* MeowManagerSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MeowManagerSpec.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,8 +227,6 @@
 		F56577751E26F6CB001DEE77 /* Providers */ = {
 			isa = PBXGroup;
 			children = (
-				F56577681E26F662001DEE77 /* MeowTypeProvider.h */,
-				F56577691E26F662001DEE77 /* MeowTypeProvider.m */,
 				F56577971E2753B9001DEE77 /* MeowActionProvider.h */,
 				F56577981E2753B9001DEE77 /* MeowActionProvider.m */,
 			);
@@ -265,9 +262,10 @@
 			isa = PBXGroup;
 			children = (
 				F5BFF78C1E29173500D60EC8 /* Blindside */,
+				F5BFF7961E29215800D60EC8 /* Managers */,
+				F5BFF7971E29217800D60EC8 /* Providers */,
 				F5BFF7821E29168600D60EC8 /* MeowSpecs.m */,
 				F5BFF7841E29168600D60EC8 /* Info.plist */,
-				F5BFF78A1E2916F300D60EC8 /* MeowActionProviderSpec.mm */,
 			);
 			path = MeowSpecs;
 			sourceTree = "<group>";
@@ -279,6 +277,22 @@
 				F5BFF78E1E29174900D60EC8 /* TestBlindsideModule.m */,
 			);
 			name = Blindside;
+			sourceTree = "<group>";
+		};
+		F5BFF7961E29215800D60EC8 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F5BFF7901E29206700D60EC8 /* MeowManagerSpec.mm */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		F5BFF7971E29217800D60EC8 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				F5BFF78A1E2916F300D60EC8 /* MeowActionProviderSpec.mm */,
+			);
+			name = Providers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -482,7 +496,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F565776A1E26F662001DEE77 /* MeowTypeProvider.m in Sources */,
 				F565777A1E26F876001DEE77 /* ViewControllerFactory.m in Sources */,
 				F56577701E26F688001DEE77 /* MeowModel.m in Sources */,
 				F56577651E26F5D8001DEE77 /* MeowBlindsideModule.m in Sources */,
@@ -498,6 +511,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5BFF7911E29206700D60EC8 /* MeowManagerSpec.mm in Sources */,
 				F5BFF7831E29168600D60EC8 /* MeowSpecs.m in Sources */,
 				F5BFF78F1E29174900D60EC8 /* TestBlindsideModule.m in Sources */,
 				F5BFF78B1E2916F300D60EC8 /* MeowActionProviderSpec.mm in Sources */,

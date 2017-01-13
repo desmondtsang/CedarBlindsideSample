@@ -8,7 +8,6 @@
 
 #import "TestBlindsideModule.h"
 #import "MeowManager.h"
-#import "MeowTypeProvider.h"
 #import "ViewControllerFactory.h"
 #import "MeowActionProvider.h"
 
@@ -17,9 +16,6 @@
 - (void)configure:(id<BSBinder>) binder {
     MeowManager *meowManager = [MeowManager new];
     [binder bind:[MeowManager class] toInstance:meowManager];
-    
-    MeowTypeProvider *meowTypeProvider = [MeowTypeProvider new];
-    [binder bind:[MeowTypeProvider class] toInstance:meowTypeProvider];
     
     MeowActionProvider *meowActionProvider = [MeowActionProvider new];
     [binder bind:[MeowActionProvider class] toInstance:meowActionProvider];
