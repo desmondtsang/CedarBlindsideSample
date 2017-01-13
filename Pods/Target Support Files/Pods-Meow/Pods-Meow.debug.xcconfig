@@ -1,0 +1,9 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Blindside" "${PODS_ROOT}/Headers/Public/BlindsidedStoryboard" "${PODS_ROOT}/Headers/Public/Cedar" "${PODS_ROOT}/Headers/Public/KSDeferred"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/Blindside" "$PODS_CONFIGURATION_BUILD_DIR/BlindsidedStoryboard" "$PODS_CONFIGURATION_BUILD_DIR/KSDeferred"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Blindside" -isystem "${PODS_ROOT}/Headers/Public/BlindsidedStoryboard" -isystem "${PODS_ROOT}/Headers/Public/Cedar" -isystem "${PODS_ROOT}/Headers/Public/KSDeferred"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Blindside" -l"BlindsidedStoryboard" -l"KSDeferred" -framework "UIKit"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods

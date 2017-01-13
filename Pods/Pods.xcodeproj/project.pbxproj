@@ -1,0 +1,1934 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C814699BCBC964D49554D50C00E6E5 /* CDRExampleReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 11C32101EA78410EE7891C0528B8E219 /* CDRExampleReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0153E213FD3B037DE63BFA71B989736C /* RejectedMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D45554D58492F74BC0BAE9105F3A47E /* RejectedMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04D743A1F8C95D55D44AFA2EDBBE7A47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		0502D1A80DAFF220B235FFB4590C3112 /* ShouldSyntax.h in Headers */ = {isa = PBXBuildFile; fileRef = 394D753F516A44C77A71F3D79CE430DA /* ShouldSyntax.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		091B1FE191546B67C26C30164297EABA /* BSInitializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E4753066DF3238CD6BBE0FB5468281 /* BSInitializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A5804A40871319748DAC537304BC678 /* CDRSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DC117C78F6BC073D222A0E7D5027729 /* CDRSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D526E98505C21B278CAF6633BB1C613 /* RaiseException.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F73D4DC40551FF9C00E478FBDF3B881 /* RaiseException.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0D7868D56D7CAFB5B96D481840F79632 /* CDRTeamCityReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = A27AF59AF4354DF1C20CA93C68CC34EB /* CDRTeamCityReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D98430EAC70D4BF3489F3B6F773E578 /* CDRSharedExampleGroupPool.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C2142C471DDE4DF7BCB920B6CE9E0FB /* CDRSharedExampleGroupPool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		119E4BABD8E86B12892D2C72413CE13B /* CDRTeamCityReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = A60541CF351CCC49C2FD1923511FE693 /* CDRTeamCityReporter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		11A5241CE161D0C8DEAABAB717212E59 /* KSURLConnectionClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D2A7BE67AD39CD9894B6915D37EDEF /* KSURLConnectionClient.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1209189775F962B1EAD4DEFF20F9A098 /* AnyArgument.mm in Sources */ = {isa = PBXBuildFile; fileRef = DF7879D45BFFC824D3DB80B6CEC237AD /* AnyArgument.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		145CFBD4054E89A7D32174F6ABC76E13 /* KSDeferred-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E27361D021623CDAE05A10757B7547 /* KSDeferred-dummy.m */; };
+		14ED95E27FAD05843D2028C0D2B03ECD /* KSDeferred.m in Sources */ = {isa = PBXBuildFile; fileRef = C4693B9FFB398794421808BC181CD46B /* KSDeferred.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1574D84A393760BD7B27B3386C68EFE6 /* BSClassProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 8849A18BDDD034936FDB3EB58C2E7BDC /* BSClassProvider.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		17BB9CE8CEA235AED229199322046A89 /* CDRTypeUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A634439811778A994CC371B6D49F4FB /* CDRTypeUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		19ED7C68557490F3153D18A59D3857B6 /* CDRXCTestObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = F76F205D69980F8F335A2122FE8919E5 /* CDRXCTestObserver.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1B967D36C2D4EA8591AB4A4455C51658 /* ValueArgument.h in Headers */ = {isa = PBXBuildFile; fileRef = 646BB64B0999740FFFDE87946437C1D5 /* ValueArgument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C3DA6290B8FD8C33A69455B1CB04D62 /* CDRVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFC37293AFE7C114732F749AA32A4F5 /* CDRVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D18E97B1ED1980FBC166BE3F9440723 /* KSDeferred.h in Headers */ = {isa = PBXBuildFile; fileRef = E43F4F1FC270AE61ED75C8F7942D8044 /* KSDeferred.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DC23FCA22CCEC05619D05C73849D128 /* KSNullabilityCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = 1447D41AC07C9EB3FBF2871F221A2AFA /* KSNullabilityCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F8F60C949AE12798B37791CA6AE1B4E /* KSNetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DACA72BDC0904845B1D50370D1D39352 /* KSNetworkClient.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2179C4D372834A304CDE08FF6654A0CF /* Blindside.m in Sources */ = {isa = PBXBuildFile; fileRef = 060B678FCA184FDF6C1ECAA5C44D1680 /* Blindside.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		24AF74ECE34B192DC98BA958D7E8BAB4 /* CDRProtocolFake.h in Headers */ = {isa = PBXBuildFile; fileRef = A697D9C361D4CBA104530E8633370005 /* CDRProtocolFake.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24D0E9CB3FC2A431740C85EE64E3FB8A /* ComparatorsBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C9841A3CE3A7B7CE18BDAF18DA9C045 /* ComparatorsBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26F029D67F938D88314CF5997C6B59F1 /* CDRBufferedDefaultReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 907B15FF09ECF72E38C4FDC3B353F082 /* CDRBufferedDefaultReporter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		289EC43876A0EDA3C2613A2BF00F8E03 /* CDRFake.h in Headers */ = {isa = PBXBuildFile; fileRef = 388A2C54B227867058FCD44E776BE48B /* CDRFake.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28BDCAE391C9A15E6CE5BF6D49055FD3 /* BeFalsy.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D76AF9C867460A2D273D0CF0CBA00C8 /* BeFalsy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2917ED0FDC2E43C024E56C3E530D1BB6 /* BSNullabilityCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FCE8A163BF451438525E82591602B89 /* BSNullabilityCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		297FD2389B868A0483747384CEEC519D /* CedarApplicationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D046CC5C488E119CA10D97BA93BB748 /* CedarApplicationDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29D76BD7E67D8638F42E2BD0223CFB65 /* StringifiersBase.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C56DCBF89E7BCFA2B223364B0CCCB5 /* StringifiersBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A1B5D1310524ACEB1FD9B17734775CE /* ActualValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DDCDBC704025A32CD3481641A805DAB /* ActualValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A5D94DB6997A7B9485D1943B50BBF8E /* CDRSlowTestStatistics.h in Headers */ = {isa = PBXBuildFile; fileRef = 384B90B26B26CA1E2221057863EF95E8 /* CDRSlowTestStatistics.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2E5D3BE5EBF2311A0F344BA2800B6FD7 /* KSURLSessionClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FDEBFBD0D6CBF81E1D4BC5C3502814 /* KSURLSessionClient.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		309A12986B3C9642BC7720676B33D92F /* BSInstanceProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 05048F398E0D035E50B3D1B00867805C /* BSInstanceProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		344D3FE5F967E48E9D1D1687255D212C /* CedarDouble.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8FE0CB4EBA5E7881F96308F0B588ADCF /* CedarDouble.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		34913FECB7EEA93AB9173DA395AE65D8 /* StubbedMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = FDB178B0613CC4A4C0C154A918EB9B28 /* StubbedMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		360801C65BC793C75F35CB71A90A71D0 /* CDRClassFake.h in Headers */ = {isa = PBXBuildFile; fileRef = 974999732B2162260C6046A12BAEA926 /* CDRClassFake.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		382D875F8D58BABB712D8B4FC93D7C13 /* Cedar.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B0C93E1303A07ED8CF24E438E99D25 /* Cedar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A06F8042068C16BDDF46CD39777D595 /* CDRReportDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B358D69C2CCDB367AE21317E19B0BF41 /* CDRReportDispatcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3AC27541EB37949CB1D66C4BFC619452 /* BSProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C95A67C9623A098DE0D42534A99F4E0 /* BSProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AF02077159DEA44C49F342C3FF049F8 /* RespondTo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 67C292ADB839D903BB0706006E58AF17 /* RespondTo.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3CB2A6978BEB3284DCB8B38436A7A0EB /* BlindsidedStoryboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 436E34257E0B397B04127DCDDC566D89 /* BlindsidedStoryboard-dummy.m */; };
+		3DCE8D96573188481DE3B126B75526B2 /* CDRBlockHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E27EBB8F71E2C856C9E0280B40880F23 /* CDRBlockHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3FEBB399280C0E77D8F25CC57EDDDD80 /* CDROTestNamer.h in Headers */ = {isa = PBXBuildFile; fileRef = 90445B710BB3D8B7543680106773721D /* CDROTestNamer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		40252DAFDD84F12BD1E6E4D39A64BB63 /* CDRRuntimeUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A4AED33781BD4A29B300CC2194CAC14 /* CDRRuntimeUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		409794BE6479FAACCCBC98E7292F87E2 /* BlindsidedStoryboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A4027422CF96BB50423B85AAF97AB8C /* BlindsidedStoryboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41E58CB4E9AFA67EA5819EDB7B0E7EEB /* BSModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD64EF8DC93592808CE0B0CE89A547C /* BSModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		448BAFF18D505DF018CB7D4183DB73E9 /* Argument.h in Headers */ = {isa = PBXBuildFile; fileRef = C1F767206DA97A5FB0674DCEF3D58FEC /* Argument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4493A138A863AC1F76168AB7DB0AF8E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		460A9A49C661182790FF6522EF447CA6 /* KSNetworkClient.h in Headers */ = {isa = PBXBuildFile; fileRef = C6A0A836DA565BA32CA61C6C8053DA7E /* KSNetworkClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		479B0AB6474896057106419218334C8D /* UIGeometryCompareEqual.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C3AE6872F90BEE43C43A94FEDFF9787 /* UIGeometryCompareEqual.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4827ACC5F720206EA7648CB9F68755AD /* Blindside.h in Headers */ = {isa = PBXBuildFile; fileRef = 3868FAC21A22435D70F2990F4DDE7FCD /* Blindside.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48A35923EF95FA4E5879EA939CB28AFE /* NSMethodSignature+Cedar.h in Headers */ = {isa = PBXBuildFile; fileRef = 89904994DEE704256BD99596A5D89908 /* NSMethodSignature+Cedar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		48B8AE10CE3FD36D02DC605BA2DAE87A /* CDRXCTestFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 142AB6C668D270D1106A108E5DF731C3 /* CDRXCTestFunctions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		48D1A5AC5D21FC9CAAF6A735B4DF9F8F /* ReturnValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F7D66911BDF6330C203F090CE26E335 /* ReturnValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		495C869E8DF3385767FD13385AE9A92F /* NSObject+Blindside.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3D8558F2977CB8D10870A21B6A1464 /* NSObject+Blindside.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49B2E6C6E2CD5E48232D5E194E1BD322 /* CedarDoubles.h in Headers */ = {isa = PBXBuildFile; fileRef = 67BCB90F4CD6BD770311AC55588CB536 /* CedarDoubles.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A85394A52CBB20C61E67DA84F0F3F98 /* NSMethodSignature+Cedar.m in Sources */ = {isa = PBXBuildFile; fileRef = 97173975D397D2B53004FF63688BAB53 /* NSMethodSignature+Cedar.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4B02722EC83D86C3DA117A83AC9CDEFB /* KSPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC23B2FBA5E27C2F9CA74F778FAD5DC /* KSPromise.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4B72D9D66EFC1F1E4C20348C2F64E5C4 /* CDROTestNamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 298E8892FC1FBAE5F2E9EB1B690B4933 /* CDROTestNamer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4BBB02D3FD8D62E569C7AE46CBD44D5E /* BeLTE.h in Headers */ = {isa = PBXBuildFile; fileRef = 411A59711B80C7DD8F84683AA8E59DF0 /* BeLTE.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CAF848BD02A00AAC759ED97BF9C492C /* KSGenericsCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = A896D3D61B4876AD765A0E50A884A822 /* KSGenericsCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		509719EC813B19646DEC82C6BD0D22DD /* BeNil.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F145FD54BF6D3E195A58554982DA7B8 /* BeNil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52F1B9AFE646F237C28BF2C59DF88190 /* CedarMatchers.h in Headers */ = {isa = PBXBuildFile; fileRef = F13EE54F7194D0547FD3C4DF38004A20 /* CedarMatchers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5465E902AD72E03C61D15E62B38E1450 /* CDRFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F0A322D89B38F6BE4271B02B4782ED5 /* CDRFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54EFDF2AC127F049420092C3B1A42C0B /* CDRXCTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FC973F0B7D3F04BF8AA0ED5282798178 /* CDRXCTestCase.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5532484BEEE98744E271652DF4BBE6AF /* Pods-Specs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB68AA785CCDA9024E2396D120B1595 /* Pods-Specs-dummy.m */; };
+		55939A2BC9E6098D24255FAEA7A66F9B /* CDRExampleGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DC3BA4098544DF4F33103257D6897F1 /* CDRExampleGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5690043A472BA0451CA06E66B57E8C2F /* BSNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 18895946FC069447A2EB3F2B3D79D953 /* BSNull.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5A8E6B854D542EA69266E32477A2AF46 /* CDRSpy.h in Headers */ = {isa = PBXBuildFile; fileRef = 18EC653A2566627E133A56991761A87D /* CDRSpy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5ACFCD844712DBFA2C1ED771BA0770C8 /* CDROTestReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 53477BFB41C282C841F73B10D2ED561D /* CDROTestReporter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5B16BB73B0DEEBF3FFD83F0E135F24D5 /* Exist.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DD276CC6CBD86048E1DFB266F006FDA /* Exist.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C616AAD091CD41BE1D6876094D24500 /* CDRExample.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B877659884C9C756F2F10D3C68DB8EC /* CDRExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CC2F8CA0EA876103BB26A09AAA71FA2 /* ConformTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F795D0873CF7FCE16198901AD0ACBFF /* ConformTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FF97BEBCCC4467E6D32640E7095F4CC /* Base.h in Headers */ = {isa = PBXBuildFile; fileRef = 09F4AB1FDDD152A5992BE6C335933965 /* Base.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		620B02A528329808608064EDDA9E2653 /* AnInstanceOf.h in Headers */ = {isa = PBXBuildFile; fileRef = C481CCFA19D647004A54A98F229999A1 /* AnInstanceOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64AF937F25293781F6B64CB94BFB311F /* CDRProtocolFake.mm in Sources */ = {isa = PBXBuildFile; fileRef = F6CBB269668E637FAC168FAB89582C96 /* CDRProtocolFake.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		650C4B0B99A7F98C477B83CF5ED27610 /* CDRSlowTestStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = 104AF6AFC5CDF4885AAB10DA6D19DB59 /* CDRSlowTestStatistics.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		658AA5F10DB80CBB5B2086EBA2D86F80 /* BSInstanceProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 908B442D6F8590D07C7A90BBFED63491 /* BSInstanceProvider.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		669BD6B100B89B8D22302FE417075477 /* BSBinder.h in Headers */ = {isa = PBXBuildFile; fileRef = 14DE977AABD2E4C6C266093D7603CD2A /* BSBinder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66F6C9E3C96CA70CEFE3FFAE3A3786F8 /* CDRColorizedReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F3959C648052575B079CFBAC491FFC /* CDRColorizedReporter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		671438995A8E9B2C424225BD7C8B6435 /* BSUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 30494707DBC5EC2A062D0804029A91CA /* BSUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6779B134C5C3585D8E1E6BB96EECA8DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		683C5F6C6938A6B35BE36531C6EC6ECD /* InvocationMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E35CF99BB0A20889211DA1F2D7E20C /* InvocationMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6873B3F4363D786A94703118611B5955 /* BSBlockProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = E9DB7D2224AB082EF429A950379D9384 /* BSBlockProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ADD33D5B1A9E1D3A8CA1D14967A2B03 /* InvocationMatcher.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8826E85C7DAE306442A7ECA8BF2963C8 /* InvocationMatcher.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6B5423F30FC0A0834792ECCB4DF4F244 /* CDRFake.mm in Sources */ = {isa = PBXBuildFile; fileRef = F9749ABEF28D93195C4E9BED8CDF233E /* CDRFake.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6C2A527FF932FA492653A789EF8AD2FD /* CDRSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 2970324AEF44FD297E1791794D576C81 /* CDRSpec.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6C73A1BD0A1AA593BD1BD01F2E36EB3E /* BlockMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = C7FD93E29872AD1174DCCB397F66095A /* BlockMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D61E55448A997B080D2FF805ED980EF /* KSCancellable.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D7570D4DA46F4BA0B1E8A97C3333963 /* KSCancellable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EC0DEE5C8CA297390ABE440008C846B /* BeGTE.h in Headers */ = {isa = PBXBuildFile; fileRef = 491212092C8F8547DD7E10E2CCF1DE5B /* BeGTE.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7028AE2DD47DE183AA25AF7137373BBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		70CBE10DCE6FCED0D518CEF1C175A33A /* BlindsidedStoryboard+CrossStoryboardSegues.h in Headers */ = {isa = PBXBuildFile; fileRef = F87E62D64EC116D894418B97DA2ACB39 /* BlindsidedStoryboard+CrossStoryboardSegues.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		710C52BAEDAF1F4AC6BC8FB7004F2064 /* CDRSpecHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DEA229BC29E707C8E19B3A01C2AC6F5 /* CDRSpecHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72AE019E7F3BE2F18800E15F09534E62 /* CDRExampleBase.h in Headers */ = {isa = PBXBuildFile; fileRef = EC7EB99B120C6428B3BAE31156A65416 /* CDRExampleBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72F8CC76EBABB7FB804EB29D2E2F1621 /* CDRHooks.h in Headers */ = {isa = PBXBuildFile; fileRef = E233569B6AF81C0BEE193B9F3C037C3F /* CDRHooks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74653BC310455C4B515BEC076D5356E1 /* CedarDouble.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EF0C648AA2E4DE71E61FCFE3A1F4E06 /* CedarDouble.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75EDD39A2AFFF0C5CF9574D23359940E /* CedarStringifiers.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5BD3C1620BD5B796495650C5FA0447 /* CedarStringifiers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		778B07B3C3F0155B1B6386E16DEAF93B /* StringifiersBase.mm in Sources */ = {isa = PBXBuildFile; fileRef = 543EA2FF0FB90B55A84848808F7EB4E9 /* StringifiersBase.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7856F8EA76EEA2F568F46DCC71B44241 /* CDRNil.m in Sources */ = {isa = PBXBuildFile; fileRef = C29F0044B8C5E74D21CC9DAC4CE77EE7 /* CDRNil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7AE3D19465E18A1C3EA5E51E1C3C926D /* CDRSpecRun.h in Headers */ = {isa = PBXBuildFile; fileRef = 669A86C1BE98392E821E35BB9FBEA27A /* CDRSpecRun.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7B77501AB5E7B8871D7318CBACF8E223 /* NSInvocation+Cedar.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDD036E5ED216349AC20C9D57AE13E2 /* NSInvocation+Cedar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7CBA9E6861002D5194DAF7BCF3DC0552 /* CDRExampleParent.h in Headers */ = {isa = PBXBuildFile; fileRef = 82DC81311E94808E358B0DD177967CF5 /* CDRExampleParent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E2BCBD3354CAA822DE6D691674E2707 /* RejectedMethod.mm in Sources */ = {isa = PBXBuildFile; fileRef = A2142A18B39E830F7D44B1902950CF6D /* RejectedMethod.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8130FA4319667E48694A8BE49D56493F /* Pods-MeowSpecs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB01E6A986DCA6AB6926945F2D88A9F /* Pods-MeowSpecs-dummy.m */; };
+		8379569AEFABFB3A14F890751A0199C3 /* CedarDoubleImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 409A54276DEB0C33167902C0E539E3BD /* CedarDoubleImpl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		843EA338BE33F256A65A0ADEBC7C4908 /* CDRFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = A95B05B09A4F38B21AECD8346847E58D /* CDRFunctions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8666672D1770F6E4B23619C2010472BD /* Pods-Meow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 937FB9091E3908F1B0716AA6E15EC6EF /* Pods-Meow-dummy.m */; };
+		872EB803F3D3696A23D53B1A79A3259C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		88143E7FC08EF2A0C33D827928218F1D /* BSClassProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = AB512D7EFAB90A8B0E1FCF63746E479E /* BSClassProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8841A94AD69ECAE5E8932397349995AA /* ContainSubset.h in Headers */ = {isa = PBXBuildFile; fileRef = EE70D06104B029327476776237D119D4 /* ContainSubset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88CE4F4CC8F77B9ED15C660615AD3324 /* Contain.h in Headers */ = {isa = PBXBuildFile; fileRef = 898C94236418E1E9EBF27271215B85E5 /* Contain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A944AD45D35DEFDB95FD5CF9B158462 /* CDRSpecFailure.m in Sources */ = {isa = PBXBuildFile; fileRef = A805EAF140FA0009D88F1BAC0F99B8F0 /* CDRSpecFailure.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8AA8371B9A68BA688CA3B5C92FA67B70 /* CDRExample.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE70D8A2C9DABC1C23B9F24DA404B1 /* CDRExample.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8BE28814EDADEE058FC63E39AEA5BF54 /* CDRSpyInfo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 419908C1BA7D6552BF9B096F79AFB5E4 /* CDRSpyInfo.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8C3A221BBD8F29F927237196EB28C4E7 /* ComparatorsContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = BBB49A4B28647FAA0215EE0FD8A888AC /* ComparatorsContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DA2FAF6B9F24415FA6CFAD463340A4E /* CDRPrivateFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E69929FF429A318129B6301C0138572 /* CDRPrivateFunctions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		92967B1A4BEEF1AE253716CEEB6CAFA9 /* CDRTypeUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CD48C4CCA43E71E497C56090D150BC /* CDRTypeUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		93F5CF978DD7D70BD247505B649A411C /* ConformTo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 319F2FCA09F849B32C3FC46C9552BB05 /* ConformTo.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		94BA25EEF6ED190F1906480BE9F99FC0 /* AnyInstanceArgument.h in Headers */ = {isa = PBXBuildFile; fileRef = B0093093FB2E5060EE0897A56673A2A8 /* AnyInstanceArgument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94C1A46B3C1459ABE75A5BB86EDE8CEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		94FDF16C966DACA582DF10802F137377 /* BlindsidedStoryboard+CrossStoryboardSegues.m in Sources */ = {isa = PBXBuildFile; fileRef = 92228616332EBB9E20F9C64D3BBEFD77 /* BlindsidedStoryboard+CrossStoryboardSegues.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9577C8E89225D8215BD6DE107063F8C0 /* BSInitializer.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9CBDF6435DE2E2213A2642F9656D7F /* BSInitializer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		975CC3C67097D186FDFB04E14608D258 /* AnyInstanceOfClassArgument.mm in Sources */ = {isa = PBXBuildFile; fileRef = 44FEA5985D9181E4974B4D9C2B16F17D /* AnyInstanceOfClassArgument.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98065085BA3D717FCCDACBF3EB05645D /* CDRSymbolicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F8D7C9A43F6F812DE1A796E9D78959 /* CDRSymbolicator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		98F6F541C8ABE298F2A879E9CB0CC98D /* CedarComparators.h in Headers */ = {isa = PBXBuildFile; fileRef = 338F824217D0C8CD3305C3DE22763543 /* CedarComparators.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9950C9983F454EE63DAE29C8E1FAA379 /* BSPropertySet.h in Headers */ = {isa = PBXBuildFile; fileRef = 39FDA26F62A56210396320C798700595 /* BSPropertySet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99A348BC472B213DCA80A99038C60D80 /* BSInitializerProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = EA791E8F9F56010A8B847B9B2F6782F6 /* BSInitializerProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9BB228EB766D1178061D9D4E05646B06 /* UIKitComparatorsContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = D6EE349820393BC223F5663A001EEC2A /* UIKitComparatorsContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E22BDD665052FE74B168692C23EEE31 /* CDRNil.h in Headers */ = {isa = PBXBuildFile; fileRef = A70E10C00261B63DE5ECB5FB91513410 /* CDRNil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A065D928559A7EC9EEB4AF2381EDE078 /* CDRXCTestSuite.h in Headers */ = {isa = PBXBuildFile; fileRef = E756E0A238CC1F65E6DD5172489E7F8B /* CDRXCTestSuite.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A2422822CCAD152BA132729858B51970 /* CDRReportDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 617BB19ABDB34839825CB36A231FB532 /* CDRReportDispatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A27CCADF916F4E5CCC78EAB30DFA0ACE /* KSURLConnectionClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 19980CBF17C1E08A594C2E94085D0D6C /* KSURLConnectionClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3AF01782542A5679D5DE5965BE3DF7B /* KSURLSessionClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B61D403E4C1E3C7BD54C48D088C533B /* KSURLSessionClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45AB4F0DC2271246847E7086135E583 /* AnyInstanceArgument.mm in Sources */ = {isa = PBXBuildFile; fileRef = A67692BC300975DECEEC472669BE1BA8 /* AnyInstanceArgument.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A5F51DA423B4A7451C65EE889481ABAC /* MatcherTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = 276C380AFF120DF9B3451A5CCC43BFCB /* MatcherTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7C9870403BC83A81716187BCFAA21D2 /* UIGeometryStringifiers.h in Headers */ = {isa = PBXBuildFile; fileRef = 8670D3619F994EAC351D0655C4753423 /* UIGeometryStringifiers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7F7D68CFEA5EB3E3C65B4FB46546BBB /* Equal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EF7AFCEB6A89CC47844A9472D1DC111 /* Equal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8753719CBF2CE496936E08AC61CEE32 /* ComparatorsContainerConvenience.h in Headers */ = {isa = PBXBuildFile; fileRef = DCD34780FBB2C1F196FAB2EF86A995EE /* ComparatorsContainerConvenience.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8FCA02217E13FD7A6869520F9BF7845 /* NSObject+Blindside.m in Sources */ = {isa = PBXBuildFile; fileRef = A22DC5C529E5F693C88214D46C17A765 /* NSObject+Blindside.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A9BDCFFF8A9731D7128A6D492BCA52E7 /* NSBundle+MainBundleHijack.m in Sources */ = {isa = PBXBuildFile; fileRef = FD788D8830EB0F8987DEEA5AB1F8AEA4 /* NSBundle+MainBundleHijack.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A9C5E3BCF6DCC20FF36D2F17184C0F85 /* CDRJUnitXMLReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FE9FC373FD24D90812E261B24BB27F /* CDRJUnitXMLReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA159F349CF37AAC5DD541A23918FD8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		ACF14FDE4AA30E1768713BAED3E807C8 /* CDRSpecRun.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB9B4243CC2474CEB0BFA1E52D11773 /* CDRSpecRun.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AD20305226D174A51BF4E063FBD65D7C /* HaveReceived.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9A860395408189382B17A15AC7379874 /* HaveReceived.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AD4D564AFEE3E86E64C51E4EA7C85099 /* StringifiersContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = AFE3C49380791311D3CF06BFC4D4A46C /* StringifiersContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADC2ECBBA8B8FC5D2DA3F2F0D8FC0CB3 /* CDRColorizedReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 51C756F12D53B8ECEEC4B30E7796EC76 /* CDRColorizedReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE22FE57139B6C75426D00644BCF8686 /* BeGreaterThan.h in Headers */ = {isa = PBXBuildFile; fileRef = E4D0F104F8E5500B7A6C592CB76B4E54 /* BeGreaterThan.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AED88C8C045078E767102C7F4BC32B9E /* NSInvocation+CDRXExample.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DE38E50DBB7943E0E104AEA33C18FE0 /* NSInvocation+CDRXExample.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B0CCE304A4DD39166F8C29D376D0A005 /* BeSameInstanceAs.h in Headers */ = {isa = PBXBuildFile; fileRef = AE933DFFDF04B219208B6ADB2EA60FAB /* BeSameInstanceAs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0E8729A5D7BEBCAF6DFF8EE38D9CC8E /* CDRBufferedDefaultReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = D678B3A4DBA6A6298560A1539A5E2955 /* CDRBufferedDefaultReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B17467F434682DC4EFBE6C29DF582662 /* CedarApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F885005BE65B63CF071490D1D159C1DC /* CedarApplicationDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B1836A593392F31CBC055429B75C9149 /* CDRDefaultReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = C62BCC3195505B08DC827C10E62B71AC /* CDRDefaultReporter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B29209E33F2FD382D7270B9AF1770998 /* CDRSymbolicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A5514D9F0A8B16D16494FCAB14D367 /* CDRSymbolicator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B3D6DB7F1D32A6D21682D4046AB27C4B /* CDRSpec+XCTestSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 348EB5A132CC93A499C07967B0994D3B /* CDRSpec+XCTestSupport.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B5E103DA96EA9EB6806E76FC481A14A6 /* CedarReporters.h in Headers */ = {isa = PBXBuildFile; fileRef = 187FF0BD375CE1107883E4C08DF77294 /* CedarReporters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5E1FD59D90610C4835D29F49ADF41BA /* CDROTestReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0931F7D702A4400460C7D04186F745F7 /* CDROTestReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6920D5F54FCB0D699E2CE47AA7CCBD1 /* BSNull.h in Headers */ = {isa = PBXBuildFile; fileRef = 61C111460BFB1906A4ABFCDC3185261E /* BSNull.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8E3A88C11F937DDB65455A642FD72F7 /* BeTruthy.h in Headers */ = {isa = PBXBuildFile; fileRef = B7F4764B99C090D123547182287E9AB2 /* BeTruthy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B912691F6FF3618ED3ABC306E069B2A4 /* AnyArgument.h in Headers */ = {isa = PBXBuildFile; fileRef = 920EBE85A29B55797E17278799652FBE /* AnyArgument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9675D51F05E4356289D4A613FE59B5A /* BlindsidedStoryboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A337A44165EFC97AB2780300089DD77 /* BlindsidedStoryboard.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B97C1D25D2C0DE245B373C07A457693D /* RespondTo.h in Headers */ = {isa = PBXBuildFile; fileRef = D47E8636528C8F7A9828CCB92B8E3975 /* RespondTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1A7A01D265E0F075E7AAB3FB0A954FE /* CDRXCTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC79CDF5B69D913EEF2CFCE25AF3C5C /* CDRXCTestSuite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C22EB8120C8E37D81944A09A5C2EC773 /* NSInvocation+Cedar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED866F0E08ADE28334D86806EFC50C5 /* NSInvocation+Cedar.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C39493620CC8A443B2F8C7A03AF50C76 /* Cedar-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 5537ADA31DEAA84F315D84A2CBEE3C59 /* Cedar-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C69DC52B6A3A1E33CB6BD9F6ACD07DAF /* CompareGreaterThan.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F968511BF9FE32C17A6EDA8575238F5 /* CompareGreaterThan.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7A18221E4FA5091C07E6129C19D8803 /* Blindside-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEA5B44E8BB2BDF14F35D38B45CA58B /* Blindside-dummy.m */; };
+		CEF3753E09A3EC91BC74F63ACC8F3DFF /* CDRNullabilityCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = 1875F494B7024B7B3DC326CD0D68009A /* CDRNullabilityCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D25FAE6C541CCE3BCFC603C69C78F3BB /* BSPropertySet.m in Sources */ = {isa = PBXBuildFile; fileRef = 683DC359B338B8B07F33C35C69703F0B /* BSPropertySet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D3EEDE860B5AEA061FC0A271BB998DFE /* CDRSpecHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8FCF01FE4A3990A4889BF94EFA74D8 /* CDRSpecHelper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D466A842629B568A3A246E005EE45E9D /* CDRJUnitXMLReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B9368E180D41EC08BAB9E49CEF80D1 /* CDRJUnitXMLReporter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D548CAD66C9F3459985BF832F8F77D59 /* HaveReceived.h in Headers */ = {isa = PBXBuildFile; fileRef = 39CFED9037A2FCEB93C8607A51360DAB /* HaveReceived.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D55E15026566D2C4ACEF7DA22B9CA492 /* CDRSpyInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 280C99853CC8FF6987BF1C6207EB8D45 /* CDRSpyInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D5719C719C681D76D79517C9F36789BB /* BSInjectorImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = F863A5C0FD275262A29F733447923269 /* BSInjectorImpl.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D6644320A1AD61ABEACF30D02AE4C3D1 /* CDRTestBundleRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC976E08C77BFD32A49639AA27DD133 /* CDRTestBundleRunner.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D6A95E29330B482E7BB87711371077EB /* AnyInstanceOfClassArgument.h in Headers */ = {isa = PBXBuildFile; fileRef = 51156D3B7FD7528BFC673DE0B5EE5916 /* AnyInstanceOfClassArgument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D93C7250FB911E5072D9906427EB032E /* CDRExampleGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 627B096DCDE86A409AC55DD46392935E /* CDRExampleGroup.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D97F40C6442A82223176E784D3EC7DDC /* NSInvocation+CDRXExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB160D57F0E0AF1E17B2DF92D7C64F1 /* NSInvocation+CDRXExample.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DBC4D6F03245C33E659BCCBF5DE03A56 /* BSInitializerProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CB1DDB4CEE810D6D678916B956A5D9 /* BSInitializerProvider.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DD08087F8DBE8F48EE14D6BBC73A237E /* BSProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD2242BA5836B6A1B6E7746E3A88282 /* BSProperty.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DE206ADB4AEBE5A6543C08AFE8D3B981 /* CDRSharedExampleGroupPool.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E34CE2254ACCC30DCFC7B5479FA503 /* CDRSharedExampleGroupPool.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DE7DCD23D1FA3D24E68C74C6D98064A3 /* BSSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = B30AA780A51CC5D7EDB111C1751C54BF /* BSSingleton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E06461DCB478A75827A9AE045F132CA2 /* BeInstanceOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 6615CA8D85DF87060996F11663078FF3 /* BeInstanceOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E25C61F4E7876A2373531C446DF67881 /* CDRXCTestSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E4950D5A609C46BC0563A2EF1544F4D /* CDRXCTestSupport.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E2BEE65C85F548943196568D2F27D207 /* CDRSpecFailure.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CE968C44265E20A16A395F9D779EDA9 /* CDRSpecFailure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3B938EF0E58F83C9E5DF6A9ED60BC42 /* BSBlockProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E289B55AC5FE156219A9219FFCEA5BB /* BSBlockProvider.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E41D2287384AA27285DD2A225CC3F5C8 /* CompareCloseTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 31AAAC46A952F1A5DD74C43090549B12 /* CompareCloseTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4AD579CB34E4ADEDD5641F0E38B8D85 /* StubbedMethod.mm in Sources */ = {isa = PBXBuildFile; fileRef = 99C7D42EB98078D82D54E65954296BE2 /* StubbedMethod.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E57D0EF813F32C0500A27D9DB57A2AE7 /* BSProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED049CD600E1E7115DB28ECED7111F4 /* BSProperty.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E612852DC1CFA388E3D8FBC148DD1E80 /* CDRXCTestObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 7956333D376D1BC21C28EE8B148DAA0D /* CDRXCTestObserver.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E7B838EC606BFF54E23722E80653E203 /* CDRRuntimeUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 932D30D95D1D02D788798C95078B60BA /* CDRRuntimeUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E80F88BE4E83B750070986D3D07CDCAE /* BSInjectorImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A2BBDAD0E7C6F7AB45FA6A61C72A516 /* BSInjectorImpl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EA0DB0093C015F7796B7EE425F94622A /* AnyInstanceConformingToProtocolArgument.h in Headers */ = {isa = PBXBuildFile; fileRef = 02EE28BA4A5783C6223B9CE2A27DFB1A /* AnyInstanceConformingToProtocolArgument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB324B453460DB6C06B468DFCE05706B /* BeEmpty.h in Headers */ = {isa = PBXBuildFile; fileRef = B12C5C0783AC8B093915151B1FD2F46E /* BeEmpty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBF7883C29025E469796638C62079E1B /* CDRClassFake.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4296A7E2F11998E5445DFFD21211A8A4 /* CDRClassFake.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EDD5C6B6FD512E9ACEB4A681EC9D57F6 /* BSScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 53ED2C42EB66AD5035903DF852EE09E5 /* BSScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF090F0A0F2AFB78F2F97EBAD8C8A3E0 /* AnyInstanceConformingToProtocolArgument.mm in Sources */ = {isa = PBXBuildFile; fileRef = 77361F46828F300A109B38DCAC07BCF0 /* AnyInstanceConformingToProtocolArgument.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EF3F8B55BA006DE1172ECE17E91C16B5 /* RaiseException.h in Headers */ = {isa = PBXBuildFile; fileRef = 59147C1C6BC96C3EDE8FF07326A7DA46 /* RaiseException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF9FA8F25DBA7A9F737D8EDFDF3CEB08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		F1F84DFB79CAC472CF2EE36CBC8064D4 /* CDRXCTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC69ABE5681E63B4F4BF99EC0B6BECB /* CDRXCTestCase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F28C123AA47CDCCFD3F0FFB19D89241D /* NSObject+BlindsidePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F302BFF03095957C9E5D6E0D3D2D39D /* NSObject+BlindsidePrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F362FF2FF930853F10227BC0E5EBF5BF /* BeCloseTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4364976C1BDB039819DBA60D27CB3E25 /* BeCloseTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F45F930F1DA5EA24F06F1F6FD77AD7F3 /* KSPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 639CE4C90C8404E8412BC3EA2E8E1196 /* KSPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F47801965BFBFF4E3B7EFC6F36EAF756 /* BSSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADF076468CF2C57E08FED66FFC0F2DC /* BSSingleton.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F5AB9A532104E32A941D49A3C79121AD /* NSObject+BlindsidePrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBF2E24414DC7B347F6E8EBF954B04E /* NSObject+BlindsidePrivate.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F5B4C44E4F7E6540308D94C85C0A9C88 /* BSInjector.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A08A58D78BFB3ACDAF4C3167A9ED17B /* BSInjector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62F412E7BBC55677CF32CF1D08010EC /* CompareEqual.h in Headers */ = {isa = PBXBuildFile; fileRef = 64A37CD1C9C5B1B12E09FDA10CAC4BD2 /* CompareEqual.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7BA2939D2B287E3B50F9CF4874361AF /* CedarDoubleImpl.mm in Sources */ = {isa = PBXBuildFile; fileRef = 06DC8830DF7A5137C67A603EE98A9480 /* CedarDoubleImpl.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F802909B4592E38CD3DF8249F7804D81 /* CDRDefaultReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D5FF7D3FDD21B5A1159CB4DB4818B21 /* CDRDefaultReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F871178F1FA28487E91849C1B27BC6BB /* BeLessThan.h in Headers */ = {isa = PBXBuildFile; fileRef = A7A86F449DFAA8EC8092D2D65784EC98 /* BeLessThan.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC69D75EB903BFBBCFD42A357400A535 /* CDRSpy.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3772078D39289F33BACBD4700F775C79 /* CDRSpy.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FCE3E70F24A3B3EBF9A7DADBBD9B0E30 /* CDRExampleBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A11448E94E2FCDF0013CC943F840F1CE /* CDRExampleBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FD0156378496EE4F99F2D71A6A831018 /* Cedar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEBF8042EC21B63F10641F066CEE6F0 /* Cedar-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0960584EAE12B5B6321171F2704B37C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68F73B3378B9152C52F2D2A1B220A5CE;
+			remoteInfo = Blindside;
+		};
+		26FCB3EA4817764ED9F1BF92BACB50DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAC635C10F70BAC96290EDDD521E1E83;
+			remoteInfo = BlindsidedStoryboard;
+		};
+		5A2EB84C1E27CEF071F903FFE7F0F44E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66FE107B6B7393C4C94BAD4CF3D5DDCA;
+			remoteInfo = KSDeferred;
+		};
+		7F5113637505BD0B2611DD0CE149825E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 965AE72840F895262BDE22030B10F528;
+			remoteInfo = Cedar;
+		};
+		9609BABD9B5A3A1F1E194C3A3D0C2916 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 965AE72840F895262BDE22030B10F528;
+			remoteInfo = Cedar;
+		};
+		F3FBD8084C1A92704B6CA57E4F61C31D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68F73B3378B9152C52F2D2A1B220A5CE;
+			remoteInfo = Blindside;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		017C13D77D767E0164FAEB415682E0ED /* Pods-MeowSpecs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MeowSpecs.release.xcconfig"; sourceTree = "<group>"; };
+		02E34CE2254ACCC30DCFC7B5479FA503 /* CDRSharedExampleGroupPool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDRSharedExampleGroupPool.m; path = Source/CDRSharedExampleGroupPool.m; sourceTree = "<group>"; };
+		02EE28BA4A5783C6223B9CE2A27DFB1A /* AnyInstanceConformingToProtocolArgument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AnyInstanceConformingToProtocolArgument.h; path = Source/Headers/Public/Doubles/Arguments/AnyInstanceConformingToProtocolArgument.h; sourceTree = "<group>"; };
+		05048F398E0D035E50B3D1B00867805C /* BSInstanceProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSInstanceProvider.h; path = Headers/Private/BSInstanceProvider.h; sourceTree = "<group>"; };
+		05D2A7BE67AD39CD9894B6915D37EDEF /* KSURLConnectionClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KSURLConnectionClient.m; path = Deferred/KSURLConnectionClient.m; sourceTree = "<group>"; };
+		060B678FCA184FDF6C1ECAA5C44D1680 /* Blindside.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Blindside.m; path = Source/Blindside.m; sourceTree = "<group>"; };
+		06DC8830DF7A5137C67A603EE98A9480 /* CedarDoubleImpl.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = CedarDoubleImpl.mm; path = Source/Doubles/CedarDoubleImpl.mm; sourceTree = "<group>"; };
+		0931F7D702A4400460C7D04186F745F7 /* CDROTestReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDROTestReporter.h; path = Source/Headers/Public/Reporters/CDROTestReporter.h; sourceTree = "<group>"; };
+		09F4AB1FDDD152A5992BE6C335933965 /* Base.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Base.h; path = Source/Headers/Public/Matchers/Base/Base.h; sourceTree = "<group>"; };
+		0B5BD3C1620BD5B796495650C5FA0447 /* CedarStringifiers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CedarStringifiers.h; path = Source/Headers/Public/Matchers/CedarStringifiers.h; sourceTree = "<group>"; };
+		0DC23B2FBA5E27C2F9CA74F778FAD5DC /* KSPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KSPromise.m; path = Deferred/KSPromise.m; sourceTree = "<group>"; };
+		0DC976E08C77BFD32A49639AA27DD133 /* CDRTestBundleRunner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDRTestBundleRunner.m; path = Source/CDRTestBundleRunner.m; sourceTree = "<group>"; };
+		104AF6AFC5CDF4885AAB10DA6D19DB59 /* CDRSlowTestStatistics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDRSlowTestStatistics.m; path = Source/ReporterHelpers/CDRSlowTestStatistics.m; sourceTree = "<group>"; };
+		11C32101EA78410EE7891C0528B8E219 /* CDRExampleReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDRExampleReporter.h; path = Source/Headers/Public/Reporters/CDRExampleReporter.h; sourceTree = "<group>"; };
+		142AB6C668D270D1106A108E5DF731C3 /* CDRXCTestFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDRXCTestFunctions.m; path = Source/XCTest/CDRXCTestFunctions.m; sourceTree = "<group>"; };
+		1447D41AC07C9EB3FBF2871F221A2AFA /* KSNullabilityCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSNullabilityCompat.h; path = Deferred/KSNullabilityCompat.h; sourceTree = "<group>"; };
+		14DE977AABD2E4C6C266093D7603CD2A /* BSBinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSBinder.h; path = Headers/Public/BSBinder.h; sourceTree = "<group>"; };
+		1875F494B7024B7B3DC326CD0D68009A /* CDRNullabilityCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDRNullabilityCompat.h; path = Source/Headers/Public/CDRNullabilityCompat.h; sourceTree = "<group>"; };
+		187FF0BD375CE1107883E4C08DF77294 /* CedarReporters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CedarReporters.h; path = Source/Headers/Public/Reporters/CedarReporters.h; sourceTree = "<group>"; };
+		18895946FC069447A2EB3F2B3D79D953 /* BSNull.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSNull.m; path = Source/BSNull.m; sourceTree = "<group>"; };
+		18EC653A2566627E133A56991761A87D /* CDRSpy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDRSpy.h; path = Source/Headers/Public/Doubles/CDRSpy.h; sourceTree = "<group>"; };
+		19980CBF17C1E08A594C2E94085D0D6C /* KSURLConnectionClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSURLConnectionClient.h; path = Deferred/KSURLConnectionClient.h; sourceTree = "<group>"; };
+		1A4027422CF96BB50423B85AAF97AB8C /* BlindsidedStoryboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlindsidedStoryboard.h; path = Pod/Classes/BlindsidedStoryboard.h; sourceTree = "<group>"; };
+		1A8AEBE273F4DE225E6E49A15A6D93FF /* KSDeferred.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KSDeferred.xcconfig; sourceTree = "<group>"; };
+		1ACD2FECCE984020EA5CAA21073818B6 /* Cedar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cedar-prefix.pch"; sourceTree = "<group>"; };
+		1BB160D57F0E0AF1E17B2DF92D7C64F1 /* NSInvocation+CDRXExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+CDRXExample.m"; path = "Source/XCTest/NSInvocation+CDRXExample.m"; sourceTree = "<group>"; };
+		1C9841A3CE3A7B7CE18BDAF18DA9C045 /* ComparatorsBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ComparatorsBase.h; path = Source/Headers/Public/Matchers/Comparators/ComparatorsBase.h; sourceTree = "<group>"; };
+		1D046CC5C488E119CA10D97BA93BB748 /* CedarApplicationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CedarApplicationDelegate.h; path = Source/Headers/Public/iOS/CedarApplicationDelegate.h; sourceTree = "<group>"; };
+		1D5FF7D3FDD21B5A1159CB4DB4818B21 /* CDRDefaultReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDRDefaultReporter.h; path = Source/Headers/Public/Reporters/CDRDefaultReporter.h; sourceTree = "<group>"; };
+		1EF7AFCEB6A89CC47844A9472D1DC111 /* Equal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Equal.h; path = Source/Headers/Public/Matchers/Base/Equal.h; sourceTree = "<group>"; };
+		21B0C93E1303A07ED8CF24E438E99D25 /* Cedar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Cedar.h; path = Source/Headers/Public/Cedar.h; sourceTree = "<group>"; };
+		24E4753066DF3238CD6BBE0FB5468281 /* BSInitializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSInitializer.h; path = Headers/Public/BSInitializer.h; sourceTree = "<group>"; };
+		276C380AFF120DF9B3451A5CCC43BFCB /* MatcherTemplate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MatcherTemplate.h; path = Source/Headers/Public/Matchers/MatcherTemplate.h; sourceTree = "<group>"; };
+		280C99853CC8FF6987BF1C6207EB8D45 /* CDRSpyInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDRSpyInfo.h; path = Source/Headers/Project/Doubles/CDRSpyInfo.h; sourceTree = "<group>"; };
+		2970324AEF44FD297E1791794D576C81 /* CDRSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDRSpec.m; path = Source/CDRSpec.m; sourceTree = "<group>"; };
+		298E8892FC1FBAE5F2E9EB1B690B4933 /* CDROTestNamer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDROTestNamer.m; path = Source/ReporterHelpers/CDROTestNamer.m; sourceTree = "<group>"; };
+		2A44FD74A8F0A184E13D5E180F651359 /* libKSDeferred.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libKSDeferred.a; path = libKSDeferred.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AEBF8042EC21B63F10641F066CEE6F0 /* Cedar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cedar-dummy.m"; sourceTree = "<group>"; };
+		2DC3BA4098544DF4F33103257D6897F1 /* CDRExampleGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDRExampleGroup.h; path = Source/Headers/Public/CDRExampleGroup.h; sourceTree = "<group>"; };
+		2EB01E6A986DCA6AB6926945F2D88A9F /* Pods-MeowSpecs-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MeowSpecs-dummy.m"; sourceTree = "<group>"; };
+		2FCE8A163BF451438525E82591602B89 /* BSNullabilityCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSNullabilityCompat.h; path = Headers/Public/BSNullabilityCompat.h; sourceTree = "<group>"; };
+		30494707DBC5EC2A062D0804029A91CA /* BSUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSUtils.h; path = Headers/Private/BSUtils.h; sourceTree = "<group>"; };
+		319F2FCA09F849B32C3FC46C9552BB05 /* ConformTo.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = ConformTo.mm; path = Source/Matchers/Base/ConformTo.mm; sourceTree = "<group>"; };
+		31AAAC46A952F1A5DD74C43090549B12 /* CompareCloseTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CompareCloseTo.h; path = Source/Headers/Public/Matchers/Comparators/CompareCloseTo.h; sourceTree = "<group>"; };
+		32E6C1345D916145DC2D2A7E579BD9C1 /* Pods-Specs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Specs.debug.xcconfig"; sourceTree = "<group>"; };
+		338F824217D0C8CD3305C3DE22763543 /* CedarComparators.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CedarComparators.h; path = Source/Headers/Public/Matchers/CedarComparators.h; sourceTree = "<group>"; };
+		348EB5A132CC93A499C07967B0994D3B /* CDRSpec+XCTestSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CDRSpec+XCTestSupport.m"; path = "Source/XCTest/CDRSpec+XCTestSupport.m"; sourceTree = "<group>"; };
+		3772078D39289F33BACBD4700F775C79 /* CDRSpy.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = CDRSpy.mm; path = Source/Doubles/CDRSpy.mm; sourceTree = "<group>"; };
+		384B90B26B26CA1E2221057863EF95E8 /* CDRSlowTestStatistics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDRSlowTestStatistics.h; path = Source/Headers/Project/ReporterHelpers/CDRSlowTestStatistics.h; sourceTree = "<group>"; };
+		3868FAC21A22435D70F2990F4DDE7FCD /* Blindside.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Blindside.h; path = Headers/Public/Blindside.h; sourceTree = "<group>"; };
+		388A2C54B227867058FCD44E776BE48B /* CDRFake.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDRFake.h; path = Source/Headers/Public/Doubles/CDRFake.h; sourceTree = "<group>"; };
+		394D753F516A44C77A71F3D79CE430DA /* ShouldSyntax.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ShouldSyntax.h; path = Source/Headers/Public/Matchers/ShouldSyntax.h; sourceTree = "<group>"; };
+		39CFED9037A2FCEB93C8607A51360DAB /* HaveReceived.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HaveReceived.h; path = Source/Headers/Public/Doubles/HaveReceived.h; sourceTree = "<group>"; };
+		39FDA26F62A56210396320C798700595 /* BSPropertySet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSPropertySet.h; path = Headers/Public/BSPropertySet.h; sourceTree = "<group>"; };
+		3A634439811778A994CC371B6D49F4FB /* CDRTypeUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDRTypeUtilities.h; path = Source/Headers/Project/CDRTypeUtilities.h; sourceTree = "<group>"; };
+		3C1EEEFB91C1FBE8796332C0AD0BCEE9 /* KSDeferred-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KSDeferred-prefix.pch"; sourceTree = "<group>"; };
+		3E289B55AC5FE156219A9219FFCEA5BB /* BSBlockProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSBlockProvider.m; path = Source/BSBlockProvider.m; sourceTree = "<group>"; };
+		3F7D66911BDF6330C203F090CE26E335 /* ReturnValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReturnValue.h; path = Source/Headers/Public/Doubles/Arguments/ReturnValue.h; sourceTree = "<group>"; };
+		409A54276DEB0C33167902C0E539E3BD /* CedarDoubleImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CedarDoubleImpl.h; path = Source/Headers/Project/Doubles/CedarDoubleImpl.h; sourceTree = "<group>"; };
+		411A59711B80C7DD8F84683AA8E59DF0 /* BeLTE.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BeLTE.h; path = Source/Headers/Public/Matchers/Base/BeLTE.h; sourceTree = "<group>"; };
+		419908C1BA7D6552BF9B096F79AFB5E4 /* CDRSpyInfo.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = CDRSpyInfo.mm; path = Source/Doubles/CDRSpyInfo.mm; sourceTree = "<group>"; };
+		4296A7E2F11998E5445DFFD21211A8A4 /* CDRClassFake.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = CDRClassFake.mm; path = Source/Doubles/CDRClassFake.mm; sourceTree = "<group>"; };
+		4364976C1BDB039819DBA60D27CB3E25 /* BeCloseTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BeCloseTo.h; path = Source/Headers/Public/Matchers/Base/BeCloseTo.h; sourceTree = "<group>"; };
+		436E34257E0B397B04127DCDDC566D89 /* BlindsidedStoryboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BlindsidedStoryboard-dummy.m"; sourceTree = "<group>"; };
+		44FEA5985D9181E4974B4D9C2B16F17D /* AnyInstanceOfClassArgument.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = AnyInstanceOfClassArgument.mm; path = Source/Doubles/Arguments/AnyInstanceOfClassArgument.mm; sourceTree = "<group>"; };
+		491212092C8F8547DD7E10E2CCF1DE5B /* BeGTE.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BeGTE.h; path = Source/Headers/Public/Matchers/Base/BeGTE.h; sourceTree = "<group>"; };
+		4A2A2D92CA1B6828721382540089D988 /* Pods-Specs-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Specs-resources.sh"; sourceTree = "<group>"; };
+		4A2BBDAD0E7C6F7AB45FA6A61C72A516 /* BSInjectorImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSInjectorImpl.h; path = Headers/Private/BSInjectorImpl.h; sourceTree = "<group>"; };
+		4A337A44165EFC97AB2780300089DD77 /* BlindsidedStoryboard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlindsidedStoryboard.m; path = Pod/Classes/BlindsidedStoryboard.m; sourceTree = "<group>"; };
+		4D7570D4DA46F4BA0B1E8A97C3333963 /* KSCancellable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSCancellable.h; path = Deferred/KSCancellable.h; sourceTree = "<group>"; };
+		4DC117C78F6BC073D222A0E7D5027729 /* CDRSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDRSpec.h; path = Source/Headers/Public/CDRSpec.h; sourceTree = "<group>"; };
+		4DDCDBC704025A32CD3481641A805DAB /* ActualValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActualValue.h; path = Source/Headers/Public/Matchers/ActualValue.h; sourceTree = "<group>"; };
+		4DEA229BC29E707C8E19B3A01C2AC6F5 /* CDRSpecHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDRSpecHelper.h; path = Source/Headers/Public/CDRSpecHelper.h; sourceTree = "<group>"; };
+		4EB68AA785CCDA9024E2396D120B1595 /* Pods-Specs-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Specs-dummy.m"; sourceTree = "<group>"; };
+		4F968511BF9FE32C17A6EDA8575238F5 /* CompareGreaterThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CompareGreaterThan.h; path = Source/Headers/Public/Matchers/Comparators/CompareGreaterThan.h; sourceTree = "<group>"; };
+		51156D3B7FD7528BFC673DE0B5EE5916 /* AnyInstanceOfClassArgument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AnyInstanceOfClassArgument.h; path = Source/Headers/Public/Doubles/Arguments/AnyInstanceOfClassArgument.h; sourceTree = "<group>"; };
+		51C756F12D53B8ECEEC4B30E7796EC76 /* CDRColorizedReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDRColorizedReporter.h; path = Source/Headers/Public/Reporters/CDRColorizedReporter.h; sourceTree = "<group>"; };
+		53477BFB41C282C841F73B10D2ED561D /* CDROTestReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDROTestReporter.m; path = Source/Reporters/CDROTestReporter.m; sourceTree = "<group>"; };
+		53ED2C42EB66AD5035903DF852EE09E5 /* BSScope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSScope.h; path = Headers/Public/BSScope.h; sourceTree = "<group>"; };
+		543EA2FF0FB90B55A84848808F7EB4E9 /* StringifiersBase.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = StringifiersBase.mm; path = Source/Matchers/Stringifiers/StringifiersBase.mm; sourceTree = "<group>"; };
+		5537ADA31DEAA84F315D84A2CBEE3C59 /* Cedar-iOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Cedar-iOS.h"; path = "Source/Headers/Public/iOS/Cedar-iOS.h"; sourceTree = "<group>"; };
+		59147C1C6BC96C3EDE8FF07326A7DA46 /* RaiseException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RaiseException.h; path = Source/Headers/Public/Matchers/Base/RaiseException.h; sourceTree = "<group>"; };
+		5A4AED33781BD4A29B300CC2194CAC14 /* CDRRuntimeUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDRRuntimeUtilities.h; path = Source/Headers/Project/CDRRuntimeUtilities.h; sourceTree = "<group>"; };
+		5AD64EF8DC93592808CE0B0CE89A547C /* BSModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSModule.h; path = Headers/Public/BSModule.h; sourceTree = "<group>"; };
+		5B61D403E4C1E3C7BD54C48D088C533B /* KSURLSessionClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSURLSessionClient.h; path = Deferred/KSURLSessionClient.h; sourceTree = "<group>"; };
+		5C95A67C9623A098DE0D42534A99F4E0 /* BSProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSProvider.h; path = Headers/Public/BSProvider.h; sourceTree = "<group>"; };
+		5ED866F0E08ADE28334D86806EFC50C5 /* NSInvocation+Cedar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+Cedar.m"; path = "Source/Extensions/NSInvocation+Cedar.m"; sourceTree = "<group>"; };
+		5F73D4DC40551FF9C00E478FBDF3B881 /* RaiseException.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RaiseException.mm; path = Source/Matchers/Base/RaiseException.mm; sourceTree = "<group>"; };
+		5FC69ABE5681E63B4F4BF99EC0B6BECB /* CDRXCTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDRXCTestCase.m; path = Source/XCTest/CDRXCTestCase.m; sourceTree = "<group>"; };
+		607C3D13E43B9F1C041D7EECAFADD53D /* Pods-Meow-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Meow-resources.sh"; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		617BB19ABDB34839825CB36A231FB532 /* CDRReportDispatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDRReportDispatcher.h; path = Source/Headers/Project/Reporters/CDRReportDispatcher.h; sourceTree = "<group>"; };
+		61C111460BFB1906A4ABFCDC3185261E /* BSNull.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSNull.h; path = Headers/Public/BSNull.h; sourceTree = "<group>"; };
+		627B096DCDE86A409AC55DD46392935E /* CDRExampleGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDRExampleGroup.m; path = Source/CDRExampleGroup.m; sourceTree = "<group>"; };
+		639CE4C90C8404E8412BC3EA2E8E1196 /* KSPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSPromise.h; path = Deferred/KSPromise.h; sourceTree = "<group>"; };
+		640F7E894CA76160ED826727CA5A31D0 /* libPods-MeowSpecs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MeowSpecs.a"; path = "libPods-MeowSpecs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		646BB64B0999740FFFDE87946437C1D5 /* ValueArgument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ValueArgument.h; path = Source/Headers/Public/Doubles/Arguments/ValueArgument.h; sourceTree = "<group>"; };
+		64A37CD1C9C5B1B12E09FDA10CAC4BD2 /* CompareEqual.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CompareEqual.h; path = Source/Headers/Public/Matchers/Comparators/CompareEqual.h; sourceTree = "<group>"; };
+		6615CA8D85DF87060996F11663078FF3 /* BeInstanceOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BeInstanceOf.h; path = Source/Headers/Public/Matchers/Base/BeInstanceOf.h; sourceTree = "<group>"; };
+		669A86C1BE98392E821E35BB9FBEA27A /* CDRSpecRun.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDRSpecRun.h; path = Source/Headers/Project/CDRSpecRun.h; sourceTree = "<group>"; };
+		67BCB90F4CD6BD770311AC55588CB536 /* CedarDoubles.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CedarDoubles.h; path = Source/Headers/Public/Doubles/CedarDoubles.h; sourceTree = "<group>"; };
+		67C292ADB839D903BB0706006E58AF17 /* RespondTo.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RespondTo.mm; path = Source/Matchers/Base/RespondTo.mm; sourceTree = "<group>"; };
+		683DC359B338B8B07F33C35C69703F0B /* BSPropertySet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSPropertySet.m; path = Source/BSPropertySet.m; sourceTree = "<group>"; };
+		6ADF076468CF2C57E08FED66FFC0F2DC /* BSSingleton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSSingleton.m; path = Source/BSSingleton.m; sourceTree = "<group>"; };
+		6CE968C44265E20A16A395F9D779EDA9 /* CDRSpecFailure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDRSpecFailure.h; path = Source/Headers/Public/CDRSpecFailure.h; sourceTree = "<group>"; };
+		6D45554D58492F74BC0BAE9105F3A47E /* RejectedMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RejectedMethod.h; path = Source/Headers/Public/Doubles/RejectedMethod.h; sourceTree = "<group>"; };
+		6F302BFF03095957C9E5D6E0D3D2D39D /* NSObject+BlindsidePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+BlindsidePrivate.h"; path = "Headers/Private/NSObject+BlindsidePrivate.h"; sourceTree = "<group>"; };
+		77361F46828F300A109B38DCAC07BCF0 /* AnyInstanceConformingToProtocolArgument.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = AnyInstanceConformingToProtocolArgument.mm; path = Source/Doubles/Arguments/AnyInstanceConformingToProtocolArgument.mm; sourceTree = "<group>"; };
+		77F8D7C9A43F6F812DE1A796E9D78959 /* CDRSymbolicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDRSymbolicator.h; path = Source/Headers/Project/CDRSymbolicator.h; sourceTree = "<group>"; };
+		7956333D376D1BC21C28EE8B148DAA0D /* CDRXCTestObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDRXCTestObserver.h; path = Source/Headers/Project/XCTest/CDRXCTestObserver.h; sourceTree = "<group>"; };
+		7A08A58D78BFB3ACDAF4C3167A9ED17B /* BSInjector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSInjector.h; path = Headers/Public/BSInjector.h; sourceTree = "<group>"; };
+		7B877659884C9C756F2F10D3C68DB8EC /* CDRExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDRExample.h; path = Source/Headers/Public/CDRExample.h; sourceTree = "<group>"; };
+		7C3AE6872F90BEE43C43A94FEDFF9787 /* UIGeometryCompareEqual.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIGeometryCompareEqual.h; path = Source/Headers/Public/Matchers/UIKit/UIGeometryCompareEqual.h; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7F0A322D89B38F6BE4271B02B4782ED5 /* CDRFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDRFunctions.h; path = Source/Headers/Public/CDRFunctions.h; sourceTree = "<group>"; };
+		7F145FD54BF6D3E195A58554982DA7B8 /* BeNil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BeNil.h; path = Source/Headers/Public/Matchers/Base/BeNil.h; sourceTree = "<group>"; };
+		7F4ECA55202222181C3F09EB596FDFCE /* Pods-Meow-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Meow-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8239F610B9B3C990B9857D2D5742EDCA /* Blindside-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Blindside-prefix.pch"; sourceTree = "<group>"; };
+		82DC81311E94808E358B0DD177967CF5 /* CDRExampleParent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDRExampleParent.h; path = Source/Headers/Public/CDRExampleParent.h; sourceTree = "<group>"; };
+		83A5514D9F0A8B16D16494FCAB14D367 /* CDRSymbolicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDRSymbolicator.m; path = Source/CDRSymbolicator.m; sourceTree = "<group>"; };
+		84602DBB1F50E6C1A59FFA11E784D7DA /* Pods-Specs-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Specs-frameworks.sh"; sourceTree = "<group>"; };
+		8670D3619F994EAC351D0655C4753423 /* UIGeometryStringifiers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIGeometryStringifiers.h; path = Source/Headers/Public/Matchers/UIKit/UIGeometryStringifiers.h; sourceTree = "<group>"; };
+		8826E85C7DAE306442A7ECA8BF2963C8 /* InvocationMatcher.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = InvocationMatcher.mm; path = Source/Doubles/InvocationMatcher.mm; sourceTree = "<group>"; };
+		8849A18BDDD034936FDB3EB58C2E7BDC /* BSClassProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSClassProvider.m; path = Source/BSClassProvider.m; sourceTree = "<group>"; };
+		898C94236418E1E9EBF27271215B85E5 /* Contain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Contain.h; path = Source/Headers/Public/Matchers/Container/Contain.h; sourceTree = "<group>"; };
+		89904994DEE704256BD99596A5D89908 /* NSMethodSignature+Cedar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMethodSignature+Cedar.h"; path = "Source/Headers/Project/Extensions/NSMethodSignature+Cedar.h"; sourceTree = "<group>"; };
+		8C2142C471DDE4DF7BCB920B6CE9E0FB /* CDRSharedExampleGroupPool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDRSharedExampleGroupPool.h; path = Source/Headers/Public/CDRSharedExampleGroupPool.h; sourceTree = "<group>"; };
+		8D76AF9C867460A2D273D0CF0CBA00C8 /* BeFalsy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BeFalsy.h; path = Source/Headers/Public/Matchers/Base/BeFalsy.h; sourceTree = "<group>"; };
+		8DD276CC6CBD86048E1DFB266F006FDA /* Exist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Exist.h; path = Source/Headers/Public/Matchers/Base/Exist.h; sourceTree = "<group>"; };
+		8E4950D5A609C46BC0563A2EF1544F4D /* CDRXCTestSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDRXCTestSupport.h; path = Source/Headers/Project/XCTest/CDRXCTestSupport.h; sourceTree = "<group>"; };
+		8E69929FF429A318129B6301C0138572 /* CDRPrivateFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDRPrivateFunctions.h; path = Source/Headers/Project/CDRPrivateFunctions.h; sourceTree = "<group>"; };
+		8ED049CD600E1E7115DB28ECED7111F4 /* BSProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSProperty.m; path = Source/BSProperty.m; sourceTree = "<group>"; };
+		8EF0C648AA2E4DE71E61FCFE3A1F4E06 /* CedarDouble.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CedarDouble.h; path = Source/Headers/Public/Doubles/CedarDouble.h; sourceTree = "<group>"; };
+		8FE0CB4EBA5E7881F96308F0B588ADCF /* CedarDouble.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = CedarDouble.mm; path = Source/Doubles/CedarDouble.mm; sourceTree = "<group>"; };
+		90445B710BB3D8B7543680106773721D /* CDROTestNamer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDROTestNamer.h; path = Source/Headers/Project/ReporterHelpers/CDROTestNamer.h; sourceTree = "<group>"; };
+		907B15FF09ECF72E38C4FDC3B353F082 /* CDRBufferedDefaultReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDRBufferedDefaultReporter.m; path = Source/Reporters/CDRBufferedDefaultReporter.m; sourceTree = "<group>"; };
+		908B442D6F8590D07C7A90BBFED63491 /* BSInstanceProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSInstanceProvider.m; path = Source/BSInstanceProvider.m; sourceTree = "<group>"; };
+		920EBE85A29B55797E17278799652FBE /* AnyArgument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AnyArgument.h; path = Source/Headers/Public/Doubles/Arguments/AnyArgument.h; sourceTree = "<group>"; };
+		92228616332EBB9E20F9C64D3BBEFD77 /* BlindsidedStoryboard+CrossStoryboardSegues.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "BlindsidedStoryboard+CrossStoryboardSegues.m"; path = "Pod/Classes/BlindsidedStoryboard+CrossStoryboardSegues.m"; sourceTree = "<group>"; };
+		932D30D95D1D02D788798C95078B60BA /* CDRRuntimeUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDRRuntimeUtilities.m; path = Source/CDRRuntimeUtilities.m; sourceTree = "<group>"; };
+		937FB9091E3908F1B0716AA6E15EC6EF /* Pods-Meow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Meow-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9584EE0495A7F4EA9C7F7B1535A3E9C0 /* libBlindsidedStoryboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libBlindsidedStoryboard.a; path = libBlindsidedStoryboard.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		96C6722121E25AD1E1E2DF10D9E4D41B /* libPods-Specs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Specs.a"; path = "libPods-Specs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96DE2D99141961B5A93AF3E1723E4822 /* Blindside.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Blindside.xcconfig; sourceTree = "<group>"; };
+		97173975D397D2B53004FF63688BAB53 /* NSMethodSignature+Cedar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMethodSignature+Cedar.m"; path = "Source/Extensions/NSMethodSignature+Cedar.m"; sourceTree = "<group>"; };
+		974999732B2162260C6046A12BAEA926 /* CDRClassFake.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDRClassFake.h; path = Source/Headers/Public/Doubles/CDRClassFake.h; sourceTree = "<group>"; };
+		985A03F8D0802D74FAD61D22B581E1F4 /* Pods-Specs-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Specs-acknowledgements.plist"; sourceTree = "<group>"; };
+		98E27361D021623CDAE05A10757B7547 /* KSDeferred-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KSDeferred-dummy.m"; sourceTree = "<group>"; };
+		99C7D42EB98078D82D54E65954296BE2 /* StubbedMethod.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = StubbedMethod.mm; path = Source/Doubles/StubbedMethod.mm; sourceTree = "<group>"; };
+		9A860395408189382B17A15AC7379874 /* HaveReceived.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = HaveReceived.mm; path = Source/Doubles/HaveReceived.mm; sourceTree = "<group>"; };
+		9BFC37293AFE7C114732F749AA32A4F5 /* CDRVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDRVersion.h; path = Source/Headers/Public/CDRVersion.h; sourceTree = "<group>"; };
+		9D8FCF01FE4A3990A4889BF94EFA74D8 /* CDRSpecHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDRSpecHelper.m; path = Source/CDRSpecHelper.m; sourceTree = "<group>"; };
+		9DC79CDF5B69D913EEF2CFCE25AF3C5C /* CDRXCTestSuite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDRXCTestSuite.m; path = Source/XCTest/CDRXCTestSuite.m; sourceTree = "<group>"; };
+		9DE38E50DBB7943E0E104AEA33C18FE0 /* NSInvocation+CDRXExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+CDRXExample.h"; path = "Source/Headers/Project/XCTest/NSInvocation+CDRXExample.h"; sourceTree = "<group>"; };
+		9F795D0873CF7FCE16198901AD0ACBFF /* ConformTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ConformTo.h; path = Source/Headers/Public/Matchers/Base/ConformTo.h; sourceTree = "<group>"; };
+		A11448E94E2FCDF0013CC943F840F1CE /* CDRExampleBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDRExampleBase.m; path = Source/CDRExampleBase.m; sourceTree = "<group>"; };
+		A2142A18B39E830F7D44B1902950CF6D /* RejectedMethod.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RejectedMethod.mm; path = Source/Doubles/RejectedMethod.mm; sourceTree = "<group>"; };
+		A22DC5C529E5F693C88214D46C17A765 /* NSObject+Blindside.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Blindside.m"; path = "Source/NSObject+Blindside.m"; sourceTree = "<group>"; };
+		A27AF59AF4354DF1C20CA93C68CC34EB /* CDRTeamCityReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDRTeamCityReporter.h; path = Source/Headers/Public/Reporters/CDRTeamCityReporter.h; sourceTree = "<group>"; };
+		A3CB1DDB4CEE810D6D678916B956A5D9 /* BSInitializerProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSInitializerProvider.m; path = Source/BSInitializerProvider.m; sourceTree = "<group>"; };
+		A60541CF351CCC49C2FD1923511FE693 /* CDRTeamCityReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDRTeamCityReporter.m; path = Source/Reporters/CDRTeamCityReporter.m; sourceTree = "<group>"; };
+		A67692BC300975DECEEC472669BE1BA8 /* AnyInstanceArgument.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = AnyInstanceArgument.mm; path = Source/Doubles/Arguments/AnyInstanceArgument.mm; sourceTree = "<group>"; };
+		A697D9C361D4CBA104530E8633370005 /* CDRProtocolFake.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDRProtocolFake.h; path = Source/Headers/Public/Doubles/CDRProtocolFake.h; sourceTree = "<group>"; };
+		A6D9C73C521A3D1D02F4F8FB79105F53 /* libBlindside.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libBlindside.a; path = libBlindside.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A70E10C00261B63DE5ECB5FB91513410 /* CDRNil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDRNil.h; path = Source/Headers/Project/CDRNil.h; sourceTree = "<group>"; };
+		A7A86F449DFAA8EC8092D2D65784EC98 /* BeLessThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BeLessThan.h; path = Source/Headers/Public/Matchers/Base/BeLessThan.h; sourceTree = "<group>"; };
+		A805EAF140FA0009D88F1BAC0F99B8F0 /* CDRSpecFailure.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDRSpecFailure.m; path = Source/CDRSpecFailure.m; sourceTree = "<group>"; };
+		A896D3D61B4876AD765A0E50A884A822 /* KSGenericsCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSGenericsCompat.h; path = Deferred/KSGenericsCompat.h; sourceTree = "<group>"; };
+		A95B05B09A4F38B21AECD8346847E58D /* CDRFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDRFunctions.m; path = Source/CDRFunctions.m; sourceTree = "<group>"; };
+		AB512D7EFAB90A8B0E1FCF63746E479E /* BSClassProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSClassProvider.h; path = Headers/Private/BSClassProvider.h; sourceTree = "<group>"; };
+		ADB9B4243CC2474CEB0BFA1E52D11773 /* CDRSpecRun.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDRSpecRun.m; path = Source/CDRSpecRun.m; sourceTree = "<group>"; };
+		AE933DFFDF04B219208B6ADB2EA60FAB /* BeSameInstanceAs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BeSameInstanceAs.h; path = Source/Headers/Public/Matchers/Base/BeSameInstanceAs.h; sourceTree = "<group>"; };
+		AFE3C49380791311D3CF06BFC4D4A46C /* StringifiersContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringifiersContainer.h; path = Source/Headers/Public/Matchers/Stringifiers/StringifiersContainer.h; sourceTree = "<group>"; };
+		B0093093FB2E5060EE0897A56673A2A8 /* AnyInstanceArgument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AnyInstanceArgument.h; path = Source/Headers/Public/Doubles/Arguments/AnyInstanceArgument.h; sourceTree = "<group>"; };
+		B12C5C0783AC8B093915151B1FD2F46E /* BeEmpty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BeEmpty.h; path = Source/Headers/Public/Matchers/Container/BeEmpty.h; sourceTree = "<group>"; };
+		B2F3959C648052575B079CFBAC491FFC /* CDRColorizedReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDRColorizedReporter.m; path = Source/Reporters/CDRColorizedReporter.m; sourceTree = "<group>"; };
+		B30AA780A51CC5D7EDB111C1751C54BF /* BSSingleton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSSingleton.h; path = Headers/Public/BSSingleton.h; sourceTree = "<group>"; };
+		B358D69C2CCDB367AE21317E19B0BF41 /* CDRReportDispatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDRReportDispatcher.m; path = Source/Reporters/CDRReportDispatcher.m; sourceTree = "<group>"; };
+		B5CD48C4CCA43E71E497C56090D150BC /* CDRTypeUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDRTypeUtilities.m; path = Source/CDRTypeUtilities.m; sourceTree = "<group>"; };
+		B71324E81467F850F77799B6B1006553 /* Pods-Meow-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Meow-frameworks.sh"; sourceTree = "<group>"; };
+		B7F4764B99C090D123547182287E9AB2 /* BeTruthy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BeTruthy.h; path = Source/Headers/Public/Matchers/Base/BeTruthy.h; sourceTree = "<group>"; };
+		B7F84A87668D76CDF2CE235A37F8972D /* BlindsidedStoryboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlindsidedStoryboard-prefix.pch"; sourceTree = "<group>"; };
+		B8CD41E93E84B0721BDC6E5C03AF511A /* Pods-Meow-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Meow-acknowledgements.plist"; sourceTree = "<group>"; };
+		BBB49A4B28647FAA0215EE0FD8A888AC /* ComparatorsContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ComparatorsContainer.h; path = Source/Headers/Public/Matchers/Comparators/ComparatorsContainer.h; sourceTree = "<group>"; };
+		BCAA8606102E331812A6469DFBD756F7 /* libPods-Meow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Meow.a"; path = "libPods-Meow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F767206DA97A5FB0674DCEF3D58FEC /* Argument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Argument.h; path = Source/Headers/Public/Doubles/Arguments/Argument.h; sourceTree = "<group>"; };
+		C29F0044B8C5E74D21CC9DAC4CE77EE7 /* CDRNil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDRNil.m; path = Source/CDRNil.m; sourceTree = "<group>"; };
+		C2FDEBFBD0D6CBF81E1D4BC5C3502814 /* KSURLSessionClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KSURLSessionClient.m; path = Deferred/KSURLSessionClient.m; sourceTree = "<group>"; };
+		C4693B9FFB398794421808BC181CD46B /* KSDeferred.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KSDeferred.m; path = Deferred/KSDeferred.m; sourceTree = "<group>"; };
+		C481CCFA19D647004A54A98F229999A1 /* AnInstanceOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AnInstanceOf.h; path = Source/Headers/Public/Matchers/Comparators/AnInstanceOf.h; sourceTree = "<group>"; };
+		C49F912F1D09EE8D32DDB1D1921263A5 /* Pods-Meow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Meow.release.xcconfig"; sourceTree = "<group>"; };
+		C62BCC3195505B08DC827C10E62B71AC /* CDRDefaultReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDRDefaultReporter.m; path = Source/Reporters/CDRDefaultReporter.m; sourceTree = "<group>"; };
+		C6A0A836DA565BA32CA61C6C8053DA7E /* KSNetworkClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSNetworkClient.h; path = Deferred/KSNetworkClient.h; sourceTree = "<group>"; };
+		C7FD93E29872AD1174DCCB397F66095A /* BlockMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlockMatcher.h; path = Source/Headers/Public/Matchers/Base/BlockMatcher.h; sourceTree = "<group>"; };
+		CB7137B94F32BE4544A1D4EC0D6631C0 /* Pods-MeowSpecs-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MeowSpecs-frameworks.sh"; sourceTree = "<group>"; };
+		CBD2242BA5836B6A1B6E7746E3A88282 /* BSProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSProperty.h; path = Headers/Private/BSProperty.h; sourceTree = "<group>"; };
+		CBDD036E5ED216349AC20C9D57AE13E2 /* NSInvocation+Cedar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+Cedar.h"; path = "Source/Headers/Project/Extensions/NSInvocation+Cedar.h"; sourceTree = "<group>"; };
+		CE3D8558F2977CB8D10870A21B6A1464 /* NSObject+Blindside.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Blindside.h"; path = "Headers/Public/NSObject+Blindside.h"; sourceTree = "<group>"; };
+		CEBE70D8A2C9DABC1C23B9F24DA404B1 /* CDRExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDRExample.m; path = Source/CDRExample.m; sourceTree = "<group>"; };
+		D47E8636528C8F7A9828CCB92B8E3975 /* RespondTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RespondTo.h; path = Source/Headers/Public/Matchers/Base/RespondTo.h; sourceTree = "<group>"; };
+		D4B058ED8AF84AAD1B210E0207B232EF /* Pods-MeowSpecs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MeowSpecs.debug.xcconfig"; sourceTree = "<group>"; };
+		D678B3A4DBA6A6298560A1539A5E2955 /* CDRBufferedDefaultReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDRBufferedDefaultReporter.h; path = Source/Headers/Public/Reporters/CDRBufferedDefaultReporter.h; sourceTree = "<group>"; };
+		D6EE349820393BC223F5663A001EEC2A /* UIKitComparatorsContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIKitComparatorsContainer.h; path = Source/Headers/Public/Matchers/UIKit/iOS/UIKitComparatorsContainer.h; sourceTree = "<group>"; };
+		DACA72BDC0904845B1D50370D1D39352 /* KSNetworkClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KSNetworkClient.m; path = Deferred/KSNetworkClient.m; sourceTree = "<group>"; };
+		DCD34780FBB2C1F196FAB2EF86A995EE /* ComparatorsContainerConvenience.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ComparatorsContainerConvenience.h; path = Source/Headers/Public/Matchers/Comparators/ComparatorsContainerConvenience.h; sourceTree = "<group>"; };
+		DF7879D45BFFC824D3DB80B6CEC237AD /* AnyArgument.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = AnyArgument.mm; path = Source/Doubles/Arguments/AnyArgument.mm; sourceTree = "<group>"; };
+		DFC428ED63A206813198C61D71148049 /* Pods-MeowSpecs-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MeowSpecs-resources.sh"; sourceTree = "<group>"; };
+		DFD85B31E2F1C7D2016BAD363B72CFEC /* Cedar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cedar.xcconfig; sourceTree = "<group>"; };
+		E10E33F9FAD2A0115A9D7F65518A03C0 /* Pods-MeowSpecs-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MeowSpecs-acknowledgements.plist"; sourceTree = "<group>"; };
+		E233569B6AF81C0BEE193B9F3C037C3F /* CDRHooks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDRHooks.h; path = Source/Headers/Public/CDRHooks.h; sourceTree = "<group>"; };
+		E27EBB8F71E2C856C9E0280B40880F23 /* CDRBlockHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDRBlockHelper.h; path = Source/Headers/Project/CDRBlockHelper.h; sourceTree = "<group>"; };
+		E2C56DCBF89E7BCFA2B223364B0CCCB5 /* StringifiersBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringifiersBase.h; path = Source/Headers/Public/Matchers/Stringifiers/StringifiersBase.h; sourceTree = "<group>"; };
+		E2FE9FC373FD24D90812E261B24BB27F /* CDRJUnitXMLReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDRJUnitXMLReporter.h; path = Source/Headers/Public/Reporters/CDRJUnitXMLReporter.h; sourceTree = "<group>"; };
+		E43F4F1FC270AE61ED75C8F7942D8044 /* KSDeferred.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KSDeferred.h; path = Deferred/KSDeferred.h; sourceTree = "<group>"; };
+		E4D0F104F8E5500B7A6C592CB76B4E54 /* BeGreaterThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BeGreaterThan.h; path = Source/Headers/Public/Matchers/Base/BeGreaterThan.h; sourceTree = "<group>"; };
+		E683E9C7D548FD53C7DD004F737B4935 /* Pods-Meow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Meow.debug.xcconfig"; sourceTree = "<group>"; };
+		E7235D280DC433A1C17273B908251E56 /* Pods-Specs-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Specs-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E756E0A238CC1F65E6DD5172489E7F8B /* CDRXCTestSuite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDRXCTestSuite.h; path = Source/Headers/Project/XCTest/CDRXCTestSuite.h; sourceTree = "<group>"; };
+		E7B9368E180D41EC08BAB9E49CEF80D1 /* CDRJUnitXMLReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDRJUnitXMLReporter.m; path = Source/Reporters/CDRJUnitXMLReporter.m; sourceTree = "<group>"; };
+		E8D454357A0F7209C6DB32EE70C1D642 /* BlindsidedStoryboard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BlindsidedStoryboard.xcconfig; sourceTree = "<group>"; };
+		E9DB7D2224AB082EF429A950379D9384 /* BSBlockProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSBlockProvider.h; path = Headers/Public/BSBlockProvider.h; sourceTree = "<group>"; };
+		EA791E8F9F56010A8B847B9B2F6782F6 /* BSInitializerProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSInitializerProvider.h; path = Headers/Private/BSInitializerProvider.h; sourceTree = "<group>"; };
+		EC7EB99B120C6428B3BAE31156A65416 /* CDRExampleBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDRExampleBase.h; path = Source/Headers/Public/CDRExampleBase.h; sourceTree = "<group>"; };
+		EC9CBDF6435DE2E2213A2642F9656D7F /* BSInitializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSInitializer.m; path = Source/BSInitializer.m; sourceTree = "<group>"; };
+		EE70D06104B029327476776237D119D4 /* ContainSubset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ContainSubset.h; path = Source/Headers/Public/Matchers/Container/ContainSubset.h; sourceTree = "<group>"; };
+		F13EE54F7194D0547FD3C4DF38004A20 /* CedarMatchers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CedarMatchers.h; path = Source/Headers/Public/Matchers/CedarMatchers.h; sourceTree = "<group>"; };
+		F3BA10D72FCCE7175D71EBB67ECDCC99 /* libCedar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCedar.a; path = libCedar.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E35CF99BB0A20889211DA1F2D7E20C /* InvocationMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = InvocationMatcher.h; path = Source/Headers/Public/Doubles/InvocationMatcher.h; sourceTree = "<group>"; };
+		F6CBB269668E637FAC168FAB89582C96 /* CDRProtocolFake.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = CDRProtocolFake.mm; path = Source/Doubles/CDRProtocolFake.mm; sourceTree = "<group>"; };
+		F76F205D69980F8F335A2122FE8919E5 /* CDRXCTestObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDRXCTestObserver.m; path = Source/XCTest/CDRXCTestObserver.m; sourceTree = "<group>"; };
+		F863A5C0FD275262A29F733447923269 /* BSInjectorImpl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSInjectorImpl.m; path = Source/BSInjectorImpl.m; sourceTree = "<group>"; };
+		F87E62D64EC116D894418B97DA2ACB39 /* BlindsidedStoryboard+CrossStoryboardSegues.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BlindsidedStoryboard+CrossStoryboardSegues.h"; path = "Pod/Classes/BlindsidedStoryboard+CrossStoryboardSegues.h"; sourceTree = "<group>"; };
+		F885005BE65B63CF071490D1D159C1DC /* CedarApplicationDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CedarApplicationDelegate.m; path = Source/iOS/CedarApplicationDelegate.m; sourceTree = "<group>"; };
+		F9749ABEF28D93195C4E9BED8CDF233E /* CDRFake.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = CDRFake.mm; path = Source/Doubles/CDRFake.mm; sourceTree = "<group>"; };
+		F9C28F9C07342C0111E3EA8C054A0B8F /* Pods-Specs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Specs.release.xcconfig"; sourceTree = "<group>"; };
+		FAEA5B44E8BB2BDF14F35D38B45CA58B /* Blindside-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Blindside-dummy.m"; sourceTree = "<group>"; };
+		FBBF2E24414DC7B347F6E8EBF954B04E /* NSObject+BlindsidePrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+BlindsidePrivate.m"; path = "Source/NSObject+BlindsidePrivate.m"; sourceTree = "<group>"; };
+		FC973F0B7D3F04BF8AA0ED5282798178 /* CDRXCTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDRXCTestCase.h; path = Source/Headers/Project/XCTest/CDRXCTestCase.h; sourceTree = "<group>"; };
+		FD788D8830EB0F8987DEEA5AB1F8AEA4 /* NSBundle+MainBundleHijack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+MainBundleHijack.m"; path = "Source/iOS/NSBundle+MainBundleHijack.m"; sourceTree = "<group>"; };
+		FDA87CAE2D7AF0F84048009937D720E5 /* Pods-MeowSpecs-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MeowSpecs-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FDB178B0613CC4A4C0C154A918EB9B28 /* StubbedMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StubbedMethod.h; path = Source/Headers/Public/Doubles/StubbedMethod.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		115A5E6092C499F48EE5D26DE72F2D74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4493A138A863AC1F76168AB7DB0AF8E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E102F9E7A14D098B31317E196189618 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				872EB803F3D3696A23D53B1A79A3259C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35F618F63056CE5D11B644E0B59B4F5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6779B134C5C3585D8E1E6BB96EECA8DF /* Foundation.framework in Frameworks */,
+				04D743A1F8C95D55D44AFA2EDBBE7A47 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EEB1781A24DBB4696C9A866AA049B61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7028AE2DD47DE183AA25AF7137373BBA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416B3B48E351EB85894BAA49B0104117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9FA8F25DBA7A9F737D8EDFDF3CEB08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68A0C6023D76A12A92D6BF0229E68635 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C1A46B3C1459ABE75A5BB86EDE8CEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EECABDEF65F42C63F86B2E6A96F4C9A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA159F349CF37AAC5DD541A23918FD8D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		272C780B39BE27A7C32FACEA33ADF257 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFD85B31E2F1C7D2016BAD363B72CFEC /* Cedar.xcconfig */,
+				2AEBF8042EC21B63F10641F066CEE6F0 /* Cedar-dummy.m */,
+				1ACD2FECCE984020EA5CAA21073818B6 /* Cedar-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Cedar";
+			sourceTree = "<group>";
+		};
+		2E16F4766A59F405E2D39B8C18F6954E /* BlindsidedStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				1A4027422CF96BB50423B85AAF97AB8C /* BlindsidedStoryboard.h */,
+				4A337A44165EFC97AB2780300089DD77 /* BlindsidedStoryboard.m */,
+				F87E62D64EC116D894418B97DA2ACB39 /* BlindsidedStoryboard+CrossStoryboardSegues.h */,
+				92228616332EBB9E20F9C64D3BBEFD77 /* BlindsidedStoryboard+CrossStoryboardSegues.m */,
+				7D2FD21AA47DAA8BCAA11B7C553E9FAD /* Support Files */,
+			);
+			name = BlindsidedStoryboard;
+			path = BlindsidedStoryboard;
+			sourceTree = "<group>";
+		};
+		2E8EF68A4A369800CBD0B830D0CD0D5B /* Blindside */ = {
+			isa = PBXGroup;
+			children = (
+				3868FAC21A22435D70F2990F4DDE7FCD /* Blindside.h */,
+				060B678FCA184FDF6C1ECAA5C44D1680 /* Blindside.m */,
+				14DE977AABD2E4C6C266093D7603CD2A /* BSBinder.h */,
+				E9DB7D2224AB082EF429A950379D9384 /* BSBlockProvider.h */,
+				3E289B55AC5FE156219A9219FFCEA5BB /* BSBlockProvider.m */,
+				AB512D7EFAB90A8B0E1FCF63746E479E /* BSClassProvider.h */,
+				8849A18BDDD034936FDB3EB58C2E7BDC /* BSClassProvider.m */,
+				24E4753066DF3238CD6BBE0FB5468281 /* BSInitializer.h */,
+				EC9CBDF6435DE2E2213A2642F9656D7F /* BSInitializer.m */,
+				EA791E8F9F56010A8B847B9B2F6782F6 /* BSInitializerProvider.h */,
+				A3CB1DDB4CEE810D6D678916B956A5D9 /* BSInitializerProvider.m */,
+				7A08A58D78BFB3ACDAF4C3167A9ED17B /* BSInjector.h */,
+				4A2BBDAD0E7C6F7AB45FA6A61C72A516 /* BSInjectorImpl.h */,
+				F863A5C0FD275262A29F733447923269 /* BSInjectorImpl.m */,
+				05048F398E0D035E50B3D1B00867805C /* BSInstanceProvider.h */,
+				908B442D6F8590D07C7A90BBFED63491 /* BSInstanceProvider.m */,
+				5AD64EF8DC93592808CE0B0CE89A547C /* BSModule.h */,
+				61C111460BFB1906A4ABFCDC3185261E /* BSNull.h */,
+				18895946FC069447A2EB3F2B3D79D953 /* BSNull.m */,
+				2FCE8A163BF451438525E82591602B89 /* BSNullabilityCompat.h */,
+				CBD2242BA5836B6A1B6E7746E3A88282 /* BSProperty.h */,
+				8ED049CD600E1E7115DB28ECED7111F4 /* BSProperty.m */,
+				39FDA26F62A56210396320C798700595 /* BSPropertySet.h */,
+				683DC359B338B8B07F33C35C69703F0B /* BSPropertySet.m */,
+				5C95A67C9623A098DE0D42534A99F4E0 /* BSProvider.h */,
+				53ED2C42EB66AD5035903DF852EE09E5 /* BSScope.h */,
+				B30AA780A51CC5D7EDB111C1751C54BF /* BSSingleton.h */,
+				6ADF076468CF2C57E08FED66FFC0F2DC /* BSSingleton.m */,
+				30494707DBC5EC2A062D0804029A91CA /* BSUtils.h */,
+				CE3D8558F2977CB8D10870A21B6A1464 /* NSObject+Blindside.h */,
+				A22DC5C529E5F693C88214D46C17A765 /* NSObject+Blindside.m */,
+				6F302BFF03095957C9E5D6E0D3D2D39D /* NSObject+BlindsidePrivate.h */,
+				FBBF2E24414DC7B347F6E8EBF954B04E /* NSObject+BlindsidePrivate.m */,
+				8C80BA131A43B0C9EA8667DBAF1F997D /* Support Files */,
+			);
+			name = Blindside;
+			path = Blindside;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6159D6A054B10A25C6261A04DC08A142 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A8AEBE273F4DE225E6E49A15A6D93FF /* KSDeferred.xcconfig */,
+				98E27361D021623CDAE05A10757B7547 /* KSDeferred-dummy.m */,
+				3C1EEEFB91C1FBE8796332C0AD0BCEE9 /* KSDeferred-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KSDeferred";
+			sourceTree = "<group>";
+		};
+		734D79245F011378844BFAC8A74BAA3D /* Pods-Specs */ = {
+			isa = PBXGroup;
+			children = (
+				E7235D280DC433A1C17273B908251E56 /* Pods-Specs-acknowledgements.markdown */,
+				985A03F8D0802D74FAD61D22B581E1F4 /* Pods-Specs-acknowledgements.plist */,
+				4EB68AA785CCDA9024E2396D120B1595 /* Pods-Specs-dummy.m */,
+				84602DBB1F50E6C1A59FFA11E784D7DA /* Pods-Specs-frameworks.sh */,
+				4A2A2D92CA1B6828721382540089D988 /* Pods-Specs-resources.sh */,
+				32E6C1345D916145DC2D2A7E579BD9C1 /* Pods-Specs.debug.xcconfig */,
+				F9C28F9C07342C0111E3EA8C054A0B8F /* Pods-Specs.release.xcconfig */,
+			);
+			name = "Pods-Specs";
+			path = "Target Support Files/Pods-Specs";
+			sourceTree = "<group>";
+		};
+		7D2FD21AA47DAA8BCAA11B7C553E9FAD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8D454357A0F7209C6DB32EE70C1D642 /* BlindsidedStoryboard.xcconfig */,
+				436E34257E0B397B04127DCDDC566D89 /* BlindsidedStoryboard-dummy.m */,
+				B7F84A87668D76CDF2CE235A37F8972D /* BlindsidedStoryboard-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BlindsidedStoryboard";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				EAF887565452DCDE052EFB348B7C1F8B /* Pods */,
+				C49C69EEEC695118A7E26D72DEA7C9AB /* Products */,
+				B859A253CF69C52188FB0AE9AE039FAC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		81D224B56E3673AD2C883051B7E414C1 /* Pods-MeowSpecs */ = {
+			isa = PBXGroup;
+			children = (
+				FDA87CAE2D7AF0F84048009937D720E5 /* Pods-MeowSpecs-acknowledgements.markdown */,
+				E10E33F9FAD2A0115A9D7F65518A03C0 /* Pods-MeowSpecs-acknowledgements.plist */,
+				2EB01E6A986DCA6AB6926945F2D88A9F /* Pods-MeowSpecs-dummy.m */,
+				CB7137B94F32BE4544A1D4EC0D6631C0 /* Pods-MeowSpecs-frameworks.sh */,
+				DFC428ED63A206813198C61D71148049 /* Pods-MeowSpecs-resources.sh */,
+				D4B058ED8AF84AAD1B210E0207B232EF /* Pods-MeowSpecs.debug.xcconfig */,
+				017C13D77D767E0164FAEB415682E0ED /* Pods-MeowSpecs.release.xcconfig */,
+			);
+			name = "Pods-MeowSpecs";
+			path = "Target Support Files/Pods-MeowSpecs";
+			sourceTree = "<group>";
+		};
+		8C80BA131A43B0C9EA8667DBAF1F997D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				96DE2D99141961B5A93AF3E1723E4822 /* Blindside.xcconfig */,
+				FAEA5B44E8BB2BDF14F35D38B45CA58B /* Blindside-dummy.m */,
+				8239F610B9B3C990B9857D2D5742EDCA /* Blindside-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Blindside";
+			sourceTree = "<group>";
+		};
+		B129ED73F3B626325D11588BC0EE72E3 /* KSDeferred */ = {
+			isa = PBXGroup;
+			children = (
+				4D7570D4DA46F4BA0B1E8A97C3333963 /* KSCancellable.h */,
+				E43F4F1FC270AE61ED75C8F7942D8044 /* KSDeferred.h */,
+				C4693B9FFB398794421808BC181CD46B /* KSDeferred.m */,
+				A896D3D61B4876AD765A0E50A884A822 /* KSGenericsCompat.h */,
+				C6A0A836DA565BA32CA61C6C8053DA7E /* KSNetworkClient.h */,
+				DACA72BDC0904845B1D50370D1D39352 /* KSNetworkClient.m */,
+				1447D41AC07C9EB3FBF2871F221A2AFA /* KSNullabilityCompat.h */,
+				639CE4C90C8404E8412BC3EA2E8E1196 /* KSPromise.h */,
+				0DC23B2FBA5E27C2F9CA74F778FAD5DC /* KSPromise.m */,
+				19980CBF17C1E08A594C2E94085D0D6C /* KSURLConnectionClient.h */,
+				05D2A7BE67AD39CD9894B6915D37EDEF /* KSURLConnectionClient.m */,
+				5B61D403E4C1E3C7BD54C48D088C533B /* KSURLSessionClient.h */,
+				C2FDEBFBD0D6CBF81E1D4BC5C3502814 /* KSURLSessionClient.m */,
+				6159D6A054B10A25C6261A04DC08A142 /* Support Files */,
+			);
+			name = KSDeferred;
+			path = KSDeferred;
+			sourceTree = "<group>";
+		};
+		B859A253CF69C52188FB0AE9AE039FAC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC688E1B16B83B33BE83B259D70BC651 /* Pods-Meow */,
+				81D224B56E3673AD2C883051B7E414C1 /* Pods-MeowSpecs */,
+				734D79245F011378844BFAC8A74BAA3D /* Pods-Specs */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C1112F6BE6F3F888E2D24E973612BD47 /* Cedar */ = {
+			isa = PBXGroup;
+			children = (
+				4DDCDBC704025A32CD3481641A805DAB /* ActualValue.h */,
+				C481CCFA19D647004A54A98F229999A1 /* AnInstanceOf.h */,
+				920EBE85A29B55797E17278799652FBE /* AnyArgument.h */,
+				DF7879D45BFFC824D3DB80B6CEC237AD /* AnyArgument.mm */,
+				B0093093FB2E5060EE0897A56673A2A8 /* AnyInstanceArgument.h */,
+				A67692BC300975DECEEC472669BE1BA8 /* AnyInstanceArgument.mm */,
+				02EE28BA4A5783C6223B9CE2A27DFB1A /* AnyInstanceConformingToProtocolArgument.h */,
+				77361F46828F300A109B38DCAC07BCF0 /* AnyInstanceConformingToProtocolArgument.mm */,
+				51156D3B7FD7528BFC673DE0B5EE5916 /* AnyInstanceOfClassArgument.h */,
+				44FEA5985D9181E4974B4D9C2B16F17D /* AnyInstanceOfClassArgument.mm */,
+				C1F767206DA97A5FB0674DCEF3D58FEC /* Argument.h */,
+				09F4AB1FDDD152A5992BE6C335933965 /* Base.h */,
+				4364976C1BDB039819DBA60D27CB3E25 /* BeCloseTo.h */,
+				B12C5C0783AC8B093915151B1FD2F46E /* BeEmpty.h */,
+				8D76AF9C867460A2D273D0CF0CBA00C8 /* BeFalsy.h */,
+				E4D0F104F8E5500B7A6C592CB76B4E54 /* BeGreaterThan.h */,
+				491212092C8F8547DD7E10E2CCF1DE5B /* BeGTE.h */,
+				6615CA8D85DF87060996F11663078FF3 /* BeInstanceOf.h */,
+				A7A86F449DFAA8EC8092D2D65784EC98 /* BeLessThan.h */,
+				411A59711B80C7DD8F84683AA8E59DF0 /* BeLTE.h */,
+				7F145FD54BF6D3E195A58554982DA7B8 /* BeNil.h */,
+				AE933DFFDF04B219208B6ADB2EA60FAB /* BeSameInstanceAs.h */,
+				B7F4764B99C090D123547182287E9AB2 /* BeTruthy.h */,
+				C7FD93E29872AD1174DCCB397F66095A /* BlockMatcher.h */,
+				E27EBB8F71E2C856C9E0280B40880F23 /* CDRBlockHelper.h */,
+				D678B3A4DBA6A6298560A1539A5E2955 /* CDRBufferedDefaultReporter.h */,
+				907B15FF09ECF72E38C4FDC3B353F082 /* CDRBufferedDefaultReporter.m */,
+				974999732B2162260C6046A12BAEA926 /* CDRClassFake.h */,
+				4296A7E2F11998E5445DFFD21211A8A4 /* CDRClassFake.mm */,
+				51C756F12D53B8ECEEC4B30E7796EC76 /* CDRColorizedReporter.h */,
+				B2F3959C648052575B079CFBAC491FFC /* CDRColorizedReporter.m */,
+				1D5FF7D3FDD21B5A1159CB4DB4818B21 /* CDRDefaultReporter.h */,
+				C62BCC3195505B08DC827C10E62B71AC /* CDRDefaultReporter.m */,
+				7B877659884C9C756F2F10D3C68DB8EC /* CDRExample.h */,
+				CEBE70D8A2C9DABC1C23B9F24DA404B1 /* CDRExample.m */,
+				EC7EB99B120C6428B3BAE31156A65416 /* CDRExampleBase.h */,
+				A11448E94E2FCDF0013CC943F840F1CE /* CDRExampleBase.m */,
+				2DC3BA4098544DF4F33103257D6897F1 /* CDRExampleGroup.h */,
+				627B096DCDE86A409AC55DD46392935E /* CDRExampleGroup.m */,
+				82DC81311E94808E358B0DD177967CF5 /* CDRExampleParent.h */,
+				11C32101EA78410EE7891C0528B8E219 /* CDRExampleReporter.h */,
+				388A2C54B227867058FCD44E776BE48B /* CDRFake.h */,
+				F9749ABEF28D93195C4E9BED8CDF233E /* CDRFake.mm */,
+				7F0A322D89B38F6BE4271B02B4782ED5 /* CDRFunctions.h */,
+				A95B05B09A4F38B21AECD8346847E58D /* CDRFunctions.m */,
+				E233569B6AF81C0BEE193B9F3C037C3F /* CDRHooks.h */,
+				E2FE9FC373FD24D90812E261B24BB27F /* CDRJUnitXMLReporter.h */,
+				E7B9368E180D41EC08BAB9E49CEF80D1 /* CDRJUnitXMLReporter.m */,
+				A70E10C00261B63DE5ECB5FB91513410 /* CDRNil.h */,
+				C29F0044B8C5E74D21CC9DAC4CE77EE7 /* CDRNil.m */,
+				1875F494B7024B7B3DC326CD0D68009A /* CDRNullabilityCompat.h */,
+				90445B710BB3D8B7543680106773721D /* CDROTestNamer.h */,
+				298E8892FC1FBAE5F2E9EB1B690B4933 /* CDROTestNamer.m */,
+				0931F7D702A4400460C7D04186F745F7 /* CDROTestReporter.h */,
+				53477BFB41C282C841F73B10D2ED561D /* CDROTestReporter.m */,
+				8E69929FF429A318129B6301C0138572 /* CDRPrivateFunctions.h */,
+				A697D9C361D4CBA104530E8633370005 /* CDRProtocolFake.h */,
+				F6CBB269668E637FAC168FAB89582C96 /* CDRProtocolFake.mm */,
+				617BB19ABDB34839825CB36A231FB532 /* CDRReportDispatcher.h */,
+				B358D69C2CCDB367AE21317E19B0BF41 /* CDRReportDispatcher.m */,
+				5A4AED33781BD4A29B300CC2194CAC14 /* CDRRuntimeUtilities.h */,
+				932D30D95D1D02D788798C95078B60BA /* CDRRuntimeUtilities.m */,
+				8C2142C471DDE4DF7BCB920B6CE9E0FB /* CDRSharedExampleGroupPool.h */,
+				02E34CE2254ACCC30DCFC7B5479FA503 /* CDRSharedExampleGroupPool.m */,
+				384B90B26B26CA1E2221057863EF95E8 /* CDRSlowTestStatistics.h */,
+				104AF6AFC5CDF4885AAB10DA6D19DB59 /* CDRSlowTestStatistics.m */,
+				4DC117C78F6BC073D222A0E7D5027729 /* CDRSpec.h */,
+				2970324AEF44FD297E1791794D576C81 /* CDRSpec.m */,
+				348EB5A132CC93A499C07967B0994D3B /* CDRSpec+XCTestSupport.m */,
+				6CE968C44265E20A16A395F9D779EDA9 /* CDRSpecFailure.h */,
+				A805EAF140FA0009D88F1BAC0F99B8F0 /* CDRSpecFailure.m */,
+				4DEA229BC29E707C8E19B3A01C2AC6F5 /* CDRSpecHelper.h */,
+				9D8FCF01FE4A3990A4889BF94EFA74D8 /* CDRSpecHelper.m */,
+				669A86C1BE98392E821E35BB9FBEA27A /* CDRSpecRun.h */,
+				ADB9B4243CC2474CEB0BFA1E52D11773 /* CDRSpecRun.m */,
+				18EC653A2566627E133A56991761A87D /* CDRSpy.h */,
+				3772078D39289F33BACBD4700F775C79 /* CDRSpy.mm */,
+				280C99853CC8FF6987BF1C6207EB8D45 /* CDRSpyInfo.h */,
+				419908C1BA7D6552BF9B096F79AFB5E4 /* CDRSpyInfo.mm */,
+				77F8D7C9A43F6F812DE1A796E9D78959 /* CDRSymbolicator.h */,
+				83A5514D9F0A8B16D16494FCAB14D367 /* CDRSymbolicator.m */,
+				A27AF59AF4354DF1C20CA93C68CC34EB /* CDRTeamCityReporter.h */,
+				A60541CF351CCC49C2FD1923511FE693 /* CDRTeamCityReporter.m */,
+				0DC976E08C77BFD32A49639AA27DD133 /* CDRTestBundleRunner.m */,
+				3A634439811778A994CC371B6D49F4FB /* CDRTypeUtilities.h */,
+				B5CD48C4CCA43E71E497C56090D150BC /* CDRTypeUtilities.m */,
+				9BFC37293AFE7C114732F749AA32A4F5 /* CDRVersion.h */,
+				FC973F0B7D3F04BF8AA0ED5282798178 /* CDRXCTestCase.h */,
+				5FC69ABE5681E63B4F4BF99EC0B6BECB /* CDRXCTestCase.m */,
+				142AB6C668D270D1106A108E5DF731C3 /* CDRXCTestFunctions.m */,
+				7956333D376D1BC21C28EE8B148DAA0D /* CDRXCTestObserver.h */,
+				F76F205D69980F8F335A2122FE8919E5 /* CDRXCTestObserver.m */,
+				E756E0A238CC1F65E6DD5172489E7F8B /* CDRXCTestSuite.h */,
+				9DC79CDF5B69D913EEF2CFCE25AF3C5C /* CDRXCTestSuite.m */,
+				8E4950D5A609C46BC0563A2EF1544F4D /* CDRXCTestSupport.h */,
+				21B0C93E1303A07ED8CF24E438E99D25 /* Cedar.h */,
+				5537ADA31DEAA84F315D84A2CBEE3C59 /* Cedar-iOS.h */,
+				1D046CC5C488E119CA10D97BA93BB748 /* CedarApplicationDelegate.h */,
+				F885005BE65B63CF071490D1D159C1DC /* CedarApplicationDelegate.m */,
+				338F824217D0C8CD3305C3DE22763543 /* CedarComparators.h */,
+				8EF0C648AA2E4DE71E61FCFE3A1F4E06 /* CedarDouble.h */,
+				8FE0CB4EBA5E7881F96308F0B588ADCF /* CedarDouble.mm */,
+				409A54276DEB0C33167902C0E539E3BD /* CedarDoubleImpl.h */,
+				06DC8830DF7A5137C67A603EE98A9480 /* CedarDoubleImpl.mm */,
+				67BCB90F4CD6BD770311AC55588CB536 /* CedarDoubles.h */,
+				F13EE54F7194D0547FD3C4DF38004A20 /* CedarMatchers.h */,
+				187FF0BD375CE1107883E4C08DF77294 /* CedarReporters.h */,
+				0B5BD3C1620BD5B796495650C5FA0447 /* CedarStringifiers.h */,
+				1C9841A3CE3A7B7CE18BDAF18DA9C045 /* ComparatorsBase.h */,
+				BBB49A4B28647FAA0215EE0FD8A888AC /* ComparatorsContainer.h */,
+				DCD34780FBB2C1F196FAB2EF86A995EE /* ComparatorsContainerConvenience.h */,
+				31AAAC46A952F1A5DD74C43090549B12 /* CompareCloseTo.h */,
+				64A37CD1C9C5B1B12E09FDA10CAC4BD2 /* CompareEqual.h */,
+				4F968511BF9FE32C17A6EDA8575238F5 /* CompareGreaterThan.h */,
+				9F795D0873CF7FCE16198901AD0ACBFF /* ConformTo.h */,
+				319F2FCA09F849B32C3FC46C9552BB05 /* ConformTo.mm */,
+				898C94236418E1E9EBF27271215B85E5 /* Contain.h */,
+				EE70D06104B029327476776237D119D4 /* ContainSubset.h */,
+				1EF7AFCEB6A89CC47844A9472D1DC111 /* Equal.h */,
+				8DD276CC6CBD86048E1DFB266F006FDA /* Exist.h */,
+				39CFED9037A2FCEB93C8607A51360DAB /* HaveReceived.h */,
+				9A860395408189382B17A15AC7379874 /* HaveReceived.mm */,
+				F5E35CF99BB0A20889211DA1F2D7E20C /* InvocationMatcher.h */,
+				8826E85C7DAE306442A7ECA8BF2963C8 /* InvocationMatcher.mm */,
+				276C380AFF120DF9B3451A5CCC43BFCB /* MatcherTemplate.h */,
+				FD788D8830EB0F8987DEEA5AB1F8AEA4 /* NSBundle+MainBundleHijack.m */,
+				9DE38E50DBB7943E0E104AEA33C18FE0 /* NSInvocation+CDRXExample.h */,
+				1BB160D57F0E0AF1E17B2DF92D7C64F1 /* NSInvocation+CDRXExample.m */,
+				CBDD036E5ED216349AC20C9D57AE13E2 /* NSInvocation+Cedar.h */,
+				5ED866F0E08ADE28334D86806EFC50C5 /* NSInvocation+Cedar.m */,
+				89904994DEE704256BD99596A5D89908 /* NSMethodSignature+Cedar.h */,
+				97173975D397D2B53004FF63688BAB53 /* NSMethodSignature+Cedar.m */,
+				59147C1C6BC96C3EDE8FF07326A7DA46 /* RaiseException.h */,
+				5F73D4DC40551FF9C00E478FBDF3B881 /* RaiseException.mm */,
+				6D45554D58492F74BC0BAE9105F3A47E /* RejectedMethod.h */,
+				A2142A18B39E830F7D44B1902950CF6D /* RejectedMethod.mm */,
+				D47E8636528C8F7A9828CCB92B8E3975 /* RespondTo.h */,
+				67C292ADB839D903BB0706006E58AF17 /* RespondTo.mm */,
+				3F7D66911BDF6330C203F090CE26E335 /* ReturnValue.h */,
+				394D753F516A44C77A71F3D79CE430DA /* ShouldSyntax.h */,
+				E2C56DCBF89E7BCFA2B223364B0CCCB5 /* StringifiersBase.h */,
+				543EA2FF0FB90B55A84848808F7EB4E9 /* StringifiersBase.mm */,
+				AFE3C49380791311D3CF06BFC4D4A46C /* StringifiersContainer.h */,
+				FDB178B0613CC4A4C0C154A918EB9B28 /* StubbedMethod.h */,
+				99C7D42EB98078D82D54E65954296BE2 /* StubbedMethod.mm */,
+				7C3AE6872F90BEE43C43A94FEDFF9787 /* UIGeometryCompareEqual.h */,
+				8670D3619F994EAC351D0655C4753423 /* UIGeometryStringifiers.h */,
+				D6EE349820393BC223F5663A001EEC2A /* UIKitComparatorsContainer.h */,
+				646BB64B0999740FFFDE87946437C1D5 /* ValueArgument.h */,
+				272C780B39BE27A7C32FACEA33ADF257 /* Support Files */,
+			);
+			name = Cedar;
+			path = Cedar;
+			sourceTree = "<group>";
+		};
+		C49C69EEEC695118A7E26D72DEA7C9AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6D9C73C521A3D1D02F4F8FB79105F53 /* libBlindside.a */,
+				9584EE0495A7F4EA9C7F7B1535A3E9C0 /* libBlindsidedStoryboard.a */,
+				F3BA10D72FCCE7175D71EBB67ECDCC99 /* libCedar.a */,
+				2A44FD74A8F0A184E13D5E180F651359 /* libKSDeferred.a */,
+				BCAA8606102E331812A6469DFBD756F7 /* libPods-Meow.a */,
+				640F7E894CA76160ED826727CA5A31D0 /* libPods-MeowSpecs.a */,
+				96C6722121E25AD1E1E2DF10D9E4D41B /* libPods-Specs.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC688E1B16B83B33BE83B259D70BC651 /* Pods-Meow */ = {
+			isa = PBXGroup;
+			children = (
+				7F4ECA55202222181C3F09EB596FDFCE /* Pods-Meow-acknowledgements.markdown */,
+				B8CD41E93E84B0721BDC6E5C03AF511A /* Pods-Meow-acknowledgements.plist */,
+				937FB9091E3908F1B0716AA6E15EC6EF /* Pods-Meow-dummy.m */,
+				B71324E81467F850F77799B6B1006553 /* Pods-Meow-frameworks.sh */,
+				607C3D13E43B9F1C041D7EECAFADD53D /* Pods-Meow-resources.sh */,
+				E683E9C7D548FD53C7DD004F737B4935 /* Pods-Meow.debug.xcconfig */,
+				C49F912F1D09EE8D32DDB1D1921263A5 /* Pods-Meow.release.xcconfig */,
+			);
+			name = "Pods-Meow";
+			path = "Target Support Files/Pods-Meow";
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EAF887565452DCDE052EFB348B7C1F8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E8EF68A4A369800CBD0B830D0CD0D5B /* Blindside */,
+				2E16F4766A59F405E2D39B8C18F6954E /* BlindsidedStoryboard */,
+				C1112F6BE6F3F888E2D24E973612BD47 /* Cedar */,
+				B129ED73F3B626325D11588BC0EE72E3 /* KSDeferred */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		674BCA2CA6D3BB0BE56725E918EA8329 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4827ACC5F720206EA7648CB9F68755AD /* Blindside.h in Headers */,
+				669BD6B100B89B8D22302FE417075477 /* BSBinder.h in Headers */,
+				6873B3F4363D786A94703118611B5955 /* BSBlockProvider.h in Headers */,
+				88143E7FC08EF2A0C33D827928218F1D /* BSClassProvider.h in Headers */,
+				091B1FE191546B67C26C30164297EABA /* BSInitializer.h in Headers */,
+				99A348BC472B213DCA80A99038C60D80 /* BSInitializerProvider.h in Headers */,
+				F5B4C44E4F7E6540308D94C85C0A9C88 /* BSInjector.h in Headers */,
+				E80F88BE4E83B750070986D3D07CDCAE /* BSInjectorImpl.h in Headers */,
+				309A12986B3C9642BC7720676B33D92F /* BSInstanceProvider.h in Headers */,
+				41E58CB4E9AFA67EA5819EDB7B0E7EEB /* BSModule.h in Headers */,
+				B6920D5F54FCB0D699E2CE47AA7CCBD1 /* BSNull.h in Headers */,
+				2917ED0FDC2E43C024E56C3E530D1BB6 /* BSNullabilityCompat.h in Headers */,
+				DD08087F8DBE8F48EE14D6BBC73A237E /* BSProperty.h in Headers */,
+				9950C9983F454EE63DAE29C8E1FAA379 /* BSPropertySet.h in Headers */,
+				3AC27541EB37949CB1D66C4BFC619452 /* BSProvider.h in Headers */,
+				EDD5C6B6FD512E9ACEB4A681EC9D57F6 /* BSScope.h in Headers */,
+				DE7DCD23D1FA3D24E68C74C6D98064A3 /* BSSingleton.h in Headers */,
+				671438995A8E9B2C424225BD7C8B6435 /* BSUtils.h in Headers */,
+				495C869E8DF3385767FD13385AE9A92F /* NSObject+Blindside.h in Headers */,
+				F28C123AA47CDCCFD3F0FFB19D89241D /* NSObject+BlindsidePrivate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F2E31B6ECE26367986609A2A1603BFD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1B5D1310524ACEB1FD9B17734775CE /* ActualValue.h in Headers */,
+				620B02A528329808608064EDDA9E2653 /* AnInstanceOf.h in Headers */,
+				B912691F6FF3618ED3ABC306E069B2A4 /* AnyArgument.h in Headers */,
+				94BA25EEF6ED190F1906480BE9F99FC0 /* AnyInstanceArgument.h in Headers */,
+				EA0DB0093C015F7796B7EE425F94622A /* AnyInstanceConformingToProtocolArgument.h in Headers */,
+				D6A95E29330B482E7BB87711371077EB /* AnyInstanceOfClassArgument.h in Headers */,
+				448BAFF18D505DF018CB7D4183DB73E9 /* Argument.h in Headers */,
+				5FF97BEBCCC4467E6D32640E7095F4CC /* Base.h in Headers */,
+				F362FF2FF930853F10227BC0E5EBF5BF /* BeCloseTo.h in Headers */,
+				EB324B453460DB6C06B468DFCE05706B /* BeEmpty.h in Headers */,
+				28BDCAE391C9A15E6CE5BF6D49055FD3 /* BeFalsy.h in Headers */,
+				AE22FE57139B6C75426D00644BCF8686 /* BeGreaterThan.h in Headers */,
+				6EC0DEE5C8CA297390ABE440008C846B /* BeGTE.h in Headers */,
+				E06461DCB478A75827A9AE045F132CA2 /* BeInstanceOf.h in Headers */,
+				F871178F1FA28487E91849C1B27BC6BB /* BeLessThan.h in Headers */,
+				4BBB02D3FD8D62E569C7AE46CBD44D5E /* BeLTE.h in Headers */,
+				509719EC813B19646DEC82C6BD0D22DD /* BeNil.h in Headers */,
+				B0CCE304A4DD39166F8C29D376D0A005 /* BeSameInstanceAs.h in Headers */,
+				B8E3A88C11F937DDB65455A642FD72F7 /* BeTruthy.h in Headers */,
+				6C73A1BD0A1AA593BD1BD01F2E36EB3E /* BlockMatcher.h in Headers */,
+				3DCE8D96573188481DE3B126B75526B2 /* CDRBlockHelper.h in Headers */,
+				B0E8729A5D7BEBCAF6DFF8EE38D9CC8E /* CDRBufferedDefaultReporter.h in Headers */,
+				360801C65BC793C75F35CB71A90A71D0 /* CDRClassFake.h in Headers */,
+				ADC2ECBBA8B8FC5D2DA3F2F0D8FC0CB3 /* CDRColorizedReporter.h in Headers */,
+				F802909B4592E38CD3DF8249F7804D81 /* CDRDefaultReporter.h in Headers */,
+				5C616AAD091CD41BE1D6876094D24500 /* CDRExample.h in Headers */,
+				72AE019E7F3BE2F18800E15F09534E62 /* CDRExampleBase.h in Headers */,
+				55939A2BC9E6098D24255FAEA7A66F9B /* CDRExampleGroup.h in Headers */,
+				7CBA9E6861002D5194DAF7BCF3DC0552 /* CDRExampleParent.h in Headers */,
+				00C814699BCBC964D49554D50C00E6E5 /* CDRExampleReporter.h in Headers */,
+				289EC43876A0EDA3C2613A2BF00F8E03 /* CDRFake.h in Headers */,
+				5465E902AD72E03C61D15E62B38E1450 /* CDRFunctions.h in Headers */,
+				72F8CC76EBABB7FB804EB29D2E2F1621 /* CDRHooks.h in Headers */,
+				A9C5E3BCF6DCC20FF36D2F17184C0F85 /* CDRJUnitXMLReporter.h in Headers */,
+				9E22BDD665052FE74B168692C23EEE31 /* CDRNil.h in Headers */,
+				CEF3753E09A3EC91BC74F63ACC8F3DFF /* CDRNullabilityCompat.h in Headers */,
+				3FEBB399280C0E77D8F25CC57EDDDD80 /* CDROTestNamer.h in Headers */,
+				B5E1FD59D90610C4835D29F49ADF41BA /* CDROTestReporter.h in Headers */,
+				8DA2FAF6B9F24415FA6CFAD463340A4E /* CDRPrivateFunctions.h in Headers */,
+				24AF74ECE34B192DC98BA958D7E8BAB4 /* CDRProtocolFake.h in Headers */,
+				A2422822CCAD152BA132729858B51970 /* CDRReportDispatcher.h in Headers */,
+				40252DAFDD84F12BD1E6E4D39A64BB63 /* CDRRuntimeUtilities.h in Headers */,
+				0D98430EAC70D4BF3489F3B6F773E578 /* CDRSharedExampleGroupPool.h in Headers */,
+				2A5D94DB6997A7B9485D1943B50BBF8E /* CDRSlowTestStatistics.h in Headers */,
+				0A5804A40871319748DAC537304BC678 /* CDRSpec.h in Headers */,
+				E2BEE65C85F548943196568D2F27D207 /* CDRSpecFailure.h in Headers */,
+				710C52BAEDAF1F4AC6BC8FB7004F2064 /* CDRSpecHelper.h in Headers */,
+				7AE3D19465E18A1C3EA5E51E1C3C926D /* CDRSpecRun.h in Headers */,
+				5A8E6B854D542EA69266E32477A2AF46 /* CDRSpy.h in Headers */,
+				D55E15026566D2C4ACEF7DA22B9CA492 /* CDRSpyInfo.h in Headers */,
+				98065085BA3D717FCCDACBF3EB05645D /* CDRSymbolicator.h in Headers */,
+				0D7868D56D7CAFB5B96D481840F79632 /* CDRTeamCityReporter.h in Headers */,
+				17BB9CE8CEA235AED229199322046A89 /* CDRTypeUtilities.h in Headers */,
+				1C3DA6290B8FD8C33A69455B1CB04D62 /* CDRVersion.h in Headers */,
+				54EFDF2AC127F049420092C3B1A42C0B /* CDRXCTestCase.h in Headers */,
+				E612852DC1CFA388E3D8FBC148DD1E80 /* CDRXCTestObserver.h in Headers */,
+				A065D928559A7EC9EEB4AF2381EDE078 /* CDRXCTestSuite.h in Headers */,
+				E25C61F4E7876A2373531C446DF67881 /* CDRXCTestSupport.h in Headers */,
+				C39493620CC8A443B2F8C7A03AF50C76 /* Cedar-iOS.h in Headers */,
+				382D875F8D58BABB712D8B4FC93D7C13 /* Cedar.h in Headers */,
+				297FD2389B868A0483747384CEEC519D /* CedarApplicationDelegate.h in Headers */,
+				98F6F541C8ABE298F2A879E9CB0CC98D /* CedarComparators.h in Headers */,
+				74653BC310455C4B515BEC076D5356E1 /* CedarDouble.h in Headers */,
+				8379569AEFABFB3A14F890751A0199C3 /* CedarDoubleImpl.h in Headers */,
+				49B2E6C6E2CD5E48232D5E194E1BD322 /* CedarDoubles.h in Headers */,
+				52F1B9AFE646F237C28BF2C59DF88190 /* CedarMatchers.h in Headers */,
+				B5E103DA96EA9EB6806E76FC481A14A6 /* CedarReporters.h in Headers */,
+				75EDD39A2AFFF0C5CF9574D23359940E /* CedarStringifiers.h in Headers */,
+				24D0E9CB3FC2A431740C85EE64E3FB8A /* ComparatorsBase.h in Headers */,
+				8C3A221BBD8F29F927237196EB28C4E7 /* ComparatorsContainer.h in Headers */,
+				A8753719CBF2CE496936E08AC61CEE32 /* ComparatorsContainerConvenience.h in Headers */,
+				E41D2287384AA27285DD2A225CC3F5C8 /* CompareCloseTo.h in Headers */,
+				F62F412E7BBC55677CF32CF1D08010EC /* CompareEqual.h in Headers */,
+				C69DC52B6A3A1E33CB6BD9F6ACD07DAF /* CompareGreaterThan.h in Headers */,
+				5CC2F8CA0EA876103BB26A09AAA71FA2 /* ConformTo.h in Headers */,
+				88CE4F4CC8F77B9ED15C660615AD3324 /* Contain.h in Headers */,
+				8841A94AD69ECAE5E8932397349995AA /* ContainSubset.h in Headers */,
+				A7F7D68CFEA5EB3E3C65B4FB46546BBB /* Equal.h in Headers */,
+				5B16BB73B0DEEBF3FFD83F0E135F24D5 /* Exist.h in Headers */,
+				D548CAD66C9F3459985BF832F8F77D59 /* HaveReceived.h in Headers */,
+				683C5F6C6938A6B35BE36531C6EC6ECD /* InvocationMatcher.h in Headers */,
+				A5F51DA423B4A7451C65EE889481ABAC /* MatcherTemplate.h in Headers */,
+				AED88C8C045078E767102C7F4BC32B9E /* NSInvocation+CDRXExample.h in Headers */,
+				7B77501AB5E7B8871D7318CBACF8E223 /* NSInvocation+Cedar.h in Headers */,
+				48A35923EF95FA4E5879EA939CB28AFE /* NSMethodSignature+Cedar.h in Headers */,
+				EF3F8B55BA006DE1172ECE17E91C16B5 /* RaiseException.h in Headers */,
+				0153E213FD3B037DE63BFA71B989736C /* RejectedMethod.h in Headers */,
+				B97C1D25D2C0DE245B373C07A457693D /* RespondTo.h in Headers */,
+				48D1A5AC5D21FC9CAAF6A735B4DF9F8F /* ReturnValue.h in Headers */,
+				0502D1A80DAFF220B235FFB4590C3112 /* ShouldSyntax.h in Headers */,
+				29D76BD7E67D8638F42E2BD0223CFB65 /* StringifiersBase.h in Headers */,
+				AD4D564AFEE3E86E64C51E4EA7C85099 /* StringifiersContainer.h in Headers */,
+				34913FECB7EEA93AB9173DA395AE65D8 /* StubbedMethod.h in Headers */,
+				479B0AB6474896057106419218334C8D /* UIGeometryCompareEqual.h in Headers */,
+				A7C9870403BC83A81716187BCFAA21D2 /* UIGeometryStringifiers.h in Headers */,
+				9BB228EB766D1178061D9D4E05646B06 /* UIKitComparatorsContainer.h in Headers */,
+				1B967D36C2D4EA8591AB4A4455C51658 /* ValueArgument.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9138A24D00BEDBB52C903E3E5175E329 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D61E55448A997B080D2FF805ED980EF /* KSCancellable.h in Headers */,
+				1D18E97B1ED1980FBC166BE3F9440723 /* KSDeferred.h in Headers */,
+				4CAF848BD02A00AAC759ED97BF9C492C /* KSGenericsCompat.h in Headers */,
+				460A9A49C661182790FF6522EF447CA6 /* KSNetworkClient.h in Headers */,
+				1DC23FCA22CCEC05619D05C73849D128 /* KSNullabilityCompat.h in Headers */,
+				F45F930F1DA5EA24F06F1F6FD77AD7F3 /* KSPromise.h in Headers */,
+				A27CCADF916F4E5CCC78EAB30DFA0ACE /* KSURLConnectionClient.h in Headers */,
+				A3AF01782542A5679D5DE5965BE3DF7B /* KSURLSessionClient.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B98B1731726F6BB61EB9A8817E7CB21D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70CBE10DCE6FCED0D518CEF1C175A33A /* BlindsidedStoryboard+CrossStoryboardSegues.h in Headers */,
+				409794BE6479FAACCCBC98E7292F87E2 /* BlindsidedStoryboard.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		56A3A32FEFA68042811E95DD80545560 /* Pods-Specs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2EFE21C3AE46601A6524520E9BACD47 /* Build configuration list for PBXNativeTarget "Pods-Specs" */;
+			buildPhases = (
+				515E367025E92195805D22A2B5364314 /* Sources */,
+				416B3B48E351EB85894BAA49B0104117 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E329615B36044E42A491FAADA22F85C /* PBXTargetDependency */,
+			);
+			name = "Pods-Specs";
+			productName = "Pods-Specs";
+			productReference = 96C6722121E25AD1E1E2DF10D9E4D41B /* libPods-Specs.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6401FDB653FF9D2AF26695757F78E151 /* Pods-Meow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9C7525A28895A977F799BA856796602 /* Build configuration list for PBXNativeTarget "Pods-Meow" */;
+			buildPhases = (
+				7B7AD7BCCFA130AAED5F28951BFBF1BB /* Sources */,
+				115A5E6092C499F48EE5D26DE72F2D74 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DB05BFDE6EF2ADC26ECDB8D496827D1 /* PBXTargetDependency */,
+				79AC404B1863BDE4644DD36453F2023C /* PBXTargetDependency */,
+				DDA4248E8712F40E66537DDB1153AC15 /* PBXTargetDependency */,
+			);
+			name = "Pods-Meow";
+			productName = "Pods-Meow";
+			productReference = BCAA8606102E331812A6469DFBD756F7 /* libPods-Meow.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		66FE107B6B7393C4C94BAD4CF3D5DDCA /* KSDeferred */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10AE3510C17C18FA0493CAACC69D4504 /* Build configuration list for PBXNativeTarget "KSDeferred" */;
+			buildPhases = (
+				FD93B06AC1C02BFA50C2696BBC49F724 /* Sources */,
+				68A0C6023D76A12A92D6BF0229E68635 /* Frameworks */,
+				9138A24D00BEDBB52C903E3E5175E329 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSDeferred;
+			productName = KSDeferred;
+			productReference = 2A44FD74A8F0A184E13D5E180F651359 /* libKSDeferred.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		68F73B3378B9152C52F2D2A1B220A5CE /* Blindside */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F78F7DF922E56716CBAD6A2F00F007F /* Build configuration list for PBXNativeTarget "Blindside" */;
+			buildPhases = (
+				FB26E1198171323BC0928400F443580F /* Sources */,
+				1E102F9E7A14D098B31317E196189618 /* Frameworks */,
+				674BCA2CA6D3BB0BE56725E918EA8329 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Blindside;
+			productName = Blindside;
+			productReference = A6D9C73C521A3D1D02F4F8FB79105F53 /* libBlindside.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		965AE72840F895262BDE22030B10F528 /* Cedar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 218341B4301A599B6D1EA505922B9EA2 /* Build configuration list for PBXNativeTarget "Cedar" */;
+			buildPhases = (
+				79A50E045A4F2B2F2DDDB1E588AD3D9C /* Sources */,
+				EECABDEF65F42C63F86B2E6A96F4C9A8 /* Frameworks */,
+				6F2E31B6ECE26367986609A2A1603BFD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cedar;
+			productName = Cedar;
+			productReference = F3BA10D72FCCE7175D71EBB67ECDCC99 /* libCedar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CAC635C10F70BAC96290EDDD521E1E83 /* BlindsidedStoryboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7C1F2BF8FF6A4F071A60BADBADF0272 /* Build configuration list for PBXNativeTarget "BlindsidedStoryboard" */;
+			buildPhases = (
+				305BA3E2B3B3A9A7D6ED5C87490F24F3 /* Sources */,
+				35F618F63056CE5D11B644E0B59B4F5B /* Frameworks */,
+				B98B1731726F6BB61EB9A8817E7CB21D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8940D80A9700AAA65C8C8E2649915E1A /* PBXTargetDependency */,
+			);
+			name = BlindsidedStoryboard;
+			productName = BlindsidedStoryboard;
+			productReference = 9584EE0495A7F4EA9C7F7B1535A3E9C0 /* libBlindsidedStoryboard.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E1F07F355EBCDAB65FDC3EC314A20FA9 /* Pods-MeowSpecs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24F7311A60FA38EC0BED31A6DA6991F3 /* Build configuration list for PBXNativeTarget "Pods-MeowSpecs" */;
+			buildPhases = (
+				27F4B3F6037A54EA663B410DDA92CCEA /* Sources */,
+				3EEB1781A24DBB4696C9A866AA049B61 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35515D95083196CE3E104B28B3382631 /* PBXTargetDependency */,
+			);
+			name = "Pods-MeowSpecs";
+			productName = "Pods-MeowSpecs";
+			productReference = 640F7E894CA76160ED826727CA5A31D0 /* libPods-MeowSpecs.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C49C69EEEC695118A7E26D72DEA7C9AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68F73B3378B9152C52F2D2A1B220A5CE /* Blindside */,
+				CAC635C10F70BAC96290EDDD521E1E83 /* BlindsidedStoryboard */,
+				965AE72840F895262BDE22030B10F528 /* Cedar */,
+				66FE107B6B7393C4C94BAD4CF3D5DDCA /* KSDeferred */,
+				6401FDB653FF9D2AF26695757F78E151 /* Pods-Meow */,
+				E1F07F355EBCDAB65FDC3EC314A20FA9 /* Pods-MeowSpecs */,
+				56A3A32FEFA68042811E95DD80545560 /* Pods-Specs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27F4B3F6037A54EA663B410DDA92CCEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8130FA4319667E48694A8BE49D56493F /* Pods-MeowSpecs-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		305BA3E2B3B3A9A7D6ED5C87490F24F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FDF16C966DACA582DF10802F137377 /* BlindsidedStoryboard+CrossStoryboardSegues.m in Sources */,
+				3CB2A6978BEB3284DCB8B38436A7A0EB /* BlindsidedStoryboard-dummy.m in Sources */,
+				B9675D51F05E4356289D4A613FE59B5A /* BlindsidedStoryboard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		515E367025E92195805D22A2B5364314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5532484BEEE98744E271652DF4BBE6AF /* Pods-Specs-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A50E045A4F2B2F2DDDB1E588AD3D9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1209189775F962B1EAD4DEFF20F9A098 /* AnyArgument.mm in Sources */,
+				A45AB4F0DC2271246847E7086135E583 /* AnyInstanceArgument.mm in Sources */,
+				EF090F0A0F2AFB78F2F97EBAD8C8A3E0 /* AnyInstanceConformingToProtocolArgument.mm in Sources */,
+				975CC3C67097D186FDFB04E14608D258 /* AnyInstanceOfClassArgument.mm in Sources */,
+				26F029D67F938D88314CF5997C6B59F1 /* CDRBufferedDefaultReporter.m in Sources */,
+				EBF7883C29025E469796638C62079E1B /* CDRClassFake.mm in Sources */,
+				66F6C9E3C96CA70CEFE3FFAE3A3786F8 /* CDRColorizedReporter.m in Sources */,
+				B1836A593392F31CBC055429B75C9149 /* CDRDefaultReporter.m in Sources */,
+				8AA8371B9A68BA688CA3B5C92FA67B70 /* CDRExample.m in Sources */,
+				FCE3E70F24A3B3EBF9A7DADBBD9B0E30 /* CDRExampleBase.m in Sources */,
+				D93C7250FB911E5072D9906427EB032E /* CDRExampleGroup.m in Sources */,
+				6B5423F30FC0A0834792ECCB4DF4F244 /* CDRFake.mm in Sources */,
+				843EA338BE33F256A65A0ADEBC7C4908 /* CDRFunctions.m in Sources */,
+				D466A842629B568A3A246E005EE45E9D /* CDRJUnitXMLReporter.m in Sources */,
+				7856F8EA76EEA2F568F46DCC71B44241 /* CDRNil.m in Sources */,
+				4B72D9D66EFC1F1E4C20348C2F64E5C4 /* CDROTestNamer.m in Sources */,
+				5ACFCD844712DBFA2C1ED771BA0770C8 /* CDROTestReporter.m in Sources */,
+				64AF937F25293781F6B64CB94BFB311F /* CDRProtocolFake.mm in Sources */,
+				3A06F8042068C16BDDF46CD39777D595 /* CDRReportDispatcher.m in Sources */,
+				E7B838EC606BFF54E23722E80653E203 /* CDRRuntimeUtilities.m in Sources */,
+				DE206ADB4AEBE5A6543C08AFE8D3B981 /* CDRSharedExampleGroupPool.m in Sources */,
+				650C4B0B99A7F98C477B83CF5ED27610 /* CDRSlowTestStatistics.m in Sources */,
+				B3D6DB7F1D32A6D21682D4046AB27C4B /* CDRSpec+XCTestSupport.m in Sources */,
+				6C2A527FF932FA492653A789EF8AD2FD /* CDRSpec.m in Sources */,
+				8A944AD45D35DEFDB95FD5CF9B158462 /* CDRSpecFailure.m in Sources */,
+				D3EEDE860B5AEA061FC0A271BB998DFE /* CDRSpecHelper.m in Sources */,
+				ACF14FDE4AA30E1768713BAED3E807C8 /* CDRSpecRun.m in Sources */,
+				FC69D75EB903BFBBCFD42A357400A535 /* CDRSpy.mm in Sources */,
+				8BE28814EDADEE058FC63E39AEA5BF54 /* CDRSpyInfo.mm in Sources */,
+				B29209E33F2FD382D7270B9AF1770998 /* CDRSymbolicator.m in Sources */,
+				119E4BABD8E86B12892D2C72413CE13B /* CDRTeamCityReporter.m in Sources */,
+				D6644320A1AD61ABEACF30D02AE4C3D1 /* CDRTestBundleRunner.m in Sources */,
+				92967B1A4BEEF1AE253716CEEB6CAFA9 /* CDRTypeUtilities.m in Sources */,
+				F1F84DFB79CAC472CF2EE36CBC8064D4 /* CDRXCTestCase.m in Sources */,
+				48B8AE10CE3FD36D02DC605BA2DAE87A /* CDRXCTestFunctions.m in Sources */,
+				19ED7C68557490F3153D18A59D3857B6 /* CDRXCTestObserver.m in Sources */,
+				C1A7A01D265E0F075E7AAB3FB0A954FE /* CDRXCTestSuite.m in Sources */,
+				FD0156378496EE4F99F2D71A6A831018 /* Cedar-dummy.m in Sources */,
+				B17467F434682DC4EFBE6C29DF582662 /* CedarApplicationDelegate.m in Sources */,
+				344D3FE5F967E48E9D1D1687255D212C /* CedarDouble.mm in Sources */,
+				F7BA2939D2B287E3B50F9CF4874361AF /* CedarDoubleImpl.mm in Sources */,
+				93F5CF978DD7D70BD247505B649A411C /* ConformTo.mm in Sources */,
+				AD20305226D174A51BF4E063FBD65D7C /* HaveReceived.mm in Sources */,
+				6ADD33D5B1A9E1D3A8CA1D14967A2B03 /* InvocationMatcher.mm in Sources */,
+				A9BDCFFF8A9731D7128A6D492BCA52E7 /* NSBundle+MainBundleHijack.m in Sources */,
+				D97F40C6442A82223176E784D3EC7DDC /* NSInvocation+CDRXExample.m in Sources */,
+				C22EB8120C8E37D81944A09A5C2EC773 /* NSInvocation+Cedar.m in Sources */,
+				4A85394A52CBB20C61E67DA84F0F3F98 /* NSMethodSignature+Cedar.m in Sources */,
+				0D526E98505C21B278CAF6633BB1C613 /* RaiseException.mm in Sources */,
+				7E2BCBD3354CAA822DE6D691674E2707 /* RejectedMethod.mm in Sources */,
+				3AF02077159DEA44C49F342C3FF049F8 /* RespondTo.mm in Sources */,
+				778B07B3C3F0155B1B6386E16DEAF93B /* StringifiersBase.mm in Sources */,
+				E4AD579CB34E4ADEDD5641F0E38B8D85 /* StubbedMethod.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B7AD7BCCFA130AAED5F28951BFBF1BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8666672D1770F6E4B23619C2010472BD /* Pods-Meow-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB26E1198171323BC0928400F443580F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A18221E4FA5091C07E6129C19D8803 /* Blindside-dummy.m in Sources */,
+				2179C4D372834A304CDE08FF6654A0CF /* Blindside.m in Sources */,
+				E3B938EF0E58F83C9E5DF6A9ED60BC42 /* BSBlockProvider.m in Sources */,
+				1574D84A393760BD7B27B3386C68EFE6 /* BSClassProvider.m in Sources */,
+				9577C8E89225D8215BD6DE107063F8C0 /* BSInitializer.m in Sources */,
+				DBC4D6F03245C33E659BCCBF5DE03A56 /* BSInitializerProvider.m in Sources */,
+				D5719C719C681D76D79517C9F36789BB /* BSInjectorImpl.m in Sources */,
+				658AA5F10DB80CBB5B2086EBA2D86F80 /* BSInstanceProvider.m in Sources */,
+				5690043A472BA0451CA06E66B57E8C2F /* BSNull.m in Sources */,
+				E57D0EF813F32C0500A27D9DB57A2AE7 /* BSProperty.m in Sources */,
+				D25FAE6C541CCE3BCFC603C69C78F3BB /* BSPropertySet.m in Sources */,
+				F47801965BFBFF4E3B7EFC6F36EAF756 /* BSSingleton.m in Sources */,
+				A8FCA02217E13FD7A6869520F9BF7845 /* NSObject+Blindside.m in Sources */,
+				F5AB9A532104E32A941D49A3C79121AD /* NSObject+BlindsidePrivate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD93B06AC1C02BFA50C2696BBC49F724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145CFBD4054E89A7D32174F6ABC76E13 /* KSDeferred-dummy.m in Sources */,
+				14ED95E27FAD05843D2028C0D2B03ECD /* KSDeferred.m in Sources */,
+				1F8F60C949AE12798B37791CA6AE1B4E /* KSNetworkClient.m in Sources */,
+				4B02722EC83D86C3DA117A83AC9CDEFB /* KSPromise.m in Sources */,
+				11A5241CE161D0C8DEAABAB717212E59 /* KSURLConnectionClient.m in Sources */,
+				2E5D3BE5EBF2311A0F344BA2800B6FD7 /* KSURLSessionClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35515D95083196CE3E104B28B3382631 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cedar;
+			target = 965AE72840F895262BDE22030B10F528 /* Cedar */;
+			targetProxy = 9609BABD9B5A3A1F1E194C3A3D0C2916 /* PBXContainerItemProxy */;
+		};
+		79AC404B1863BDE4644DD36453F2023C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BlindsidedStoryboard;
+			target = CAC635C10F70BAC96290EDDD521E1E83 /* BlindsidedStoryboard */;
+			targetProxy = 26FCB3EA4817764ED9F1BF92BACB50DB /* PBXContainerItemProxy */;
+		};
+		8940D80A9700AAA65C8C8E2649915E1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Blindside;
+			target = 68F73B3378B9152C52F2D2A1B220A5CE /* Blindside */;
+			targetProxy = 0960584EAE12B5B6321171F2704B37C6 /* PBXContainerItemProxy */;
+		};
+		8E329615B36044E42A491FAADA22F85C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cedar;
+			target = 965AE72840F895262BDE22030B10F528 /* Cedar */;
+			targetProxy = 7F5113637505BD0B2611DD0CE149825E /* PBXContainerItemProxy */;
+		};
+		9DB05BFDE6EF2ADC26ECDB8D496827D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Blindside;
+			target = 68F73B3378B9152C52F2D2A1B220A5CE /* Blindside */;
+			targetProxy = F3FBD8084C1A92704B6CA57E4F61C31D /* PBXContainerItemProxy */;
+		};
+		DDA4248E8712F40E66537DDB1153AC15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KSDeferred;
+			target = 66FE107B6B7393C4C94BAD4CF3D5DDCA /* KSDeferred */;
+			targetProxy = 5A2EB84C1E27CEF071F903FFE7F0F44E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C4B623CE991C11FF0763225098F43AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A8AEBE273F4DE225E6E49A15A6D93FF /* KSDeferred.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KSDeferred/KSDeferred-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0CF7F56D32BA90078F5AC7E9BA3077D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFD85B31E2F1C7D2016BAD363B72CFEC /* Cedar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Cedar/Cedar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		132AA3775DB85A00F45D9FAEE32AF02B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E683E9C7D548FD53C7DD004F737B4935 /* Pods-Meow.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		273BFBB5A63AAB097F19C2E73C1F59E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C49F912F1D09EE8D32DDB1D1921263A5 /* Pods-Meow.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68812BCA92FFA65F1E810DEB873D3FB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8D454357A0F7209C6DB32EE70C1D642 /* BlindsidedStoryboard.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BlindsidedStoryboard/BlindsidedStoryboard-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9E3C005D8B751548CC34926504CB2260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFD85B31E2F1C7D2016BAD363B72CFEC /* Cedar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Cedar/Cedar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A9F4E909F4431BFE2A4710CA28B9E828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9C28F9C07342C0111E3EA8C054A0B8F /* Pods-Specs.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C3DF9D404D025E4E4D0524CEF53B6FAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4B058ED8AF84AAD1B210E0207B232EF /* Pods-MeowSpecs.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D3E020F8E11D8B324F3F562167FACFCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32E6C1345D916145DC2D2A7E579BD9C1 /* Pods-Specs.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D483E9C3B259A95A39209474AC0B3128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A8AEBE273F4DE225E6E49A15A6D93FF /* KSDeferred.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KSDeferred/KSDeferred-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EFE2CAD7400CDC0CC33DF011C604DCC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 017C13D77D767E0164FAEB415682E0ED /* Pods-MeowSpecs.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F1CEE61C58FCBE564AB48E9D93A35FD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96DE2D99141961B5A93AF3E1723E4822 /* Blindside.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Blindside/Blindside-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FCA69D243F1EF2BD30F31E6A648BB817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8D454357A0F7209C6DB32EE70C1D642 /* BlindsidedStoryboard.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BlindsidedStoryboard/BlindsidedStoryboard-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FFAF268E8279A1E24091E5A9BB285D37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96DE2D99141961B5A93AF3E1723E4822 /* Blindside.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Blindside/Blindside-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10AE3510C17C18FA0493CAACC69D4504 /* Build configuration list for PBXNativeTarget "KSDeferred" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C4B623CE991C11FF0763225098F43AB /* Debug */,
+				D483E9C3B259A95A39209474AC0B3128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		218341B4301A599B6D1EA505922B9EA2 /* Build configuration list for PBXNativeTarget "Cedar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E3C005D8B751548CC34926504CB2260 /* Debug */,
+				0CF7F56D32BA90078F5AC7E9BA3077D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24F7311A60FA38EC0BED31A6DA6991F3 /* Build configuration list for PBXNativeTarget "Pods-MeowSpecs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3DF9D404D025E4E4D0524CEF53B6FAC /* Debug */,
+				EFE2CAD7400CDC0CC33DF011C604DCC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F78F7DF922E56716CBAD6A2F00F007F /* Build configuration list for PBXNativeTarget "Blindside" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFAF268E8279A1E24091E5A9BB285D37 /* Debug */,
+				F1CEE61C58FCBE564AB48E9D93A35FD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7C1F2BF8FF6A4F071A60BADBADF0272 /* Build configuration list for PBXNativeTarget "BlindsidedStoryboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA69D243F1EF2BD30F31E6A648BB817 /* Debug */,
+				68812BCA92FFA65F1E810DEB873D3FB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9C7525A28895A977F799BA856796602 /* Build configuration list for PBXNativeTarget "Pods-Meow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				132AA3775DB85A00F45D9FAEE32AF02B /* Debug */,
+				273BFBB5A63AAB097F19C2E73C1F59E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2EFE21C3AE46601A6524520E9BACD47 /* Build configuration list for PBXNativeTarget "Pods-Specs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E020F8E11D8B324F3F562167FACFCA /* Debug */,
+				A9F4E909F4431BFE2A4710CA28B9E828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
