@@ -11,11 +11,6 @@ target 'Meow' do
   pod 'BlindsidedStoryboard'
   pod 'KSDeferred'
 
-  target 'Specs' do
-    inherit! :search_paths
-    pod 'Cedar'
-  end
-
   target 'MeowSpecs' do
     inherit! :search_paths
     pod 'Cedar'

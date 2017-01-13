@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		32F0CB7EF7257997DAB4F8F2 /* libPods-Meow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E7507EB07C7B1734C7D099 /* libPods-Meow.a */; };
 		8F1C99B6B637BB9241309247 /* libPods-MeowSpecs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4230D95D3838C211622D4D /* libPods-MeowSpecs.a */; };
-		B307A8EDCFFECAC8BFF9110F /* libPods-Specs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1FBAF72D1ADDCA867A8E8C /* libPods-Specs.a */; };
 		F56577221E26F1AF001DEE77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F56577211E26F1AF001DEE77 /* main.m */; };
 		F56577251E26F1AF001DEE77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F56577241E26F1AF001DEE77 /* AppDelegate.m */; };
 		F56577281E26F1AF001DEE77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F56577271E26F1AF001DEE77 /* ViewController.m */; };
@@ -21,18 +20,7 @@
 		F56577701E26F688001DEE77 /* MeowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F565776F1E26F688001DEE77 /* MeowModel.m */; };
 		F56577731E26F69F001DEE77 /* MeowManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F56577721E26F69F001DEE77 /* MeowManager.m */; };
 		F565777A1E26F876001DEE77 /* ViewControllerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F56577791E26F876001DEE77 /* ViewControllerFactory.m */; };
-		F56577831E275184001DEE77 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = F56577821E275184001DEE77 /* main.mm */; };
 		F56577991E2753B9001DEE77 /* MeowActionProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = F56577981E2753B9001DEE77 /* MeowActionProvider.m */; };
-		F5BFF76E1E27564100D60EC8 /* MeowActionProviderSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = F5BFF76D1E27564100D60EC8 /* MeowActionProviderSpec.mm */; };
-		F5BFF7721E29130F00D60EC8 /* TestBlindsideModule.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BFF7711E29130F00D60EC8 /* TestBlindsideModule.m */; };
-		F5BFF7741E29158700D60EC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F56577241E26F1AF001DEE77 /* AppDelegate.m */; };
-		F5BFF7751E29158700D60EC8 /* MeowBlindsideModule.m in Sources */ = {isa = PBXBuildFile; fileRef = F56577641E26F5D8001DEE77 /* MeowBlindsideModule.m */; };
-		F5BFF7761E29158700D60EC8 /* ViewControllerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F56577791E26F876001DEE77 /* ViewControllerFactory.m */; };
-		F5BFF7771E29158700D60EC8 /* MeowManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F56577721E26F69F001DEE77 /* MeowManager.m */; };
-		F5BFF7781E29158700D60EC8 /* MeowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F565776F1E26F688001DEE77 /* MeowModel.m */; };
-		F5BFF7791E29158700D60EC8 /* MeowTypeProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = F56577691E26F662001DEE77 /* MeowTypeProvider.m */; };
-		F5BFF77A1E29158700D60EC8 /* MeowActionProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = F56577981E2753B9001DEE77 /* MeowActionProvider.m */; };
-		F5BFF77B1E29158700D60EC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F56577271E26F1AF001DEE77 /* ViewController.m */; };
 		F5BFF7831E29168600D60EC8 /* MeowSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BFF7821E29168600D60EC8 /* MeowSpecs.m */; };
 		F5BFF78B1E2916F300D60EC8 /* MeowActionProviderSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = F5BFF78A1E2916F300D60EC8 /* MeowActionProviderSpec.mm */; };
 		F5BFF78F1E29174900D60EC8 /* TestBlindsideModule.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BFF78E1E29174900D60EC8 /* TestBlindsideModule.m */; };
@@ -85,14 +73,8 @@
 		F56577721E26F69F001DEE77 /* MeowManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeowManager.m; sourceTree = "<group>"; };
 		F56577781E26F876001DEE77 /* ViewControllerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerFactory.h; sourceTree = "<group>"; };
 		F56577791E26F876001DEE77 /* ViewControllerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerFactory.m; sourceTree = "<group>"; };
-		F565777F1E275184001DEE77 /* Specs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Specs.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F56577821E275184001DEE77 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
-		F56577921E275184001DEE77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F56577971E2753B9001DEE77 /* MeowActionProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeowActionProvider.h; sourceTree = "<group>"; };
 		F56577981E2753B9001DEE77 /* MeowActionProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeowActionProvider.m; sourceTree = "<group>"; };
-		F5BFF76D1E27564100D60EC8 /* MeowActionProviderSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MeowActionProviderSpec.mm; sourceTree = "<group>"; };
-		F5BFF7701E29130F00D60EC8 /* TestBlindsideModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestBlindsideModule.h; sourceTree = "<group>"; };
-		F5BFF7711E29130F00D60EC8 /* TestBlindsideModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestBlindsideModule.m; sourceTree = "<group>"; };
 		F5BFF7801E29168600D60EC8 /* MeowSpecs.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeowSpecs.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5BFF7821E29168600D60EC8 /* MeowSpecs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeowSpecs.m; sourceTree = "<group>"; };
 		F5BFF7841E29168600D60EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -107,14 +89,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				32F0CB7EF7257997DAB4F8F2 /* libPods-Meow.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F565777C1E275184001DEE77 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B307A8EDCFFECAC8BFF9110F /* libPods-Specs.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,7 +137,6 @@
 			isa = PBXGroup;
 			children = (
 				F565771F1E26F1AF001DEE77 /* Meow */,
-				F56577801E275184001DEE77 /* Specs */,
 				F5BFF7811E29168600D60EC8 /* MeowSpecs */,
 				F565771E1E26F1AF001DEE77 /* Products */,
 				615B0F0AE47675EE42AEB1FE /* Pods */,
@@ -175,7 +148,6 @@
 			isa = PBXGroup;
 			children = (
 				F565771D1E26F1AF001DEE77 /* Meow.app */,
-				F565777F1E275184001DEE77 /* Specs.app */,
 				F5BFF7801E29168600D60EC8 /* MeowSpecs.xctest */,
 			);
 			name = Products;
@@ -282,39 +254,11 @@
 			name = Factories;
 			sourceTree = "<group>";
 		};
-		F56577801E275184001DEE77 /* Specs */ = {
-			isa = PBXGroup;
-			children = (
-				F5BFF76F1E2912E600D60EC8 /* Blindside */,
-				F56577921E275184001DEE77 /* Info.plist */,
-				F56577811E275184001DEE77 /* Supporting Files */,
-				F5BFF76D1E27564100D60EC8 /* MeowActionProviderSpec.mm */,
-			);
-			path = Specs;
-			sourceTree = "<group>";
-		};
-		F56577811E275184001DEE77 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F56577821E275184001DEE77 /* main.mm */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		F56577961E2752F2001DEE77 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Utilities;
-			sourceTree = "<group>";
-		};
-		F5BFF76F1E2912E600D60EC8 /* Blindside */ = {
-			isa = PBXGroup;
-			children = (
-				F5BFF7701E29130F00D60EC8 /* TestBlindsideModule.h */,
-				F5BFF7711E29130F00D60EC8 /* TestBlindsideModule.m */,
-			);
-			name = Blindside;
 			sourceTree = "<group>";
 		};
 		F5BFF7811E29168600D60EC8 /* MeowSpecs */ = {
@@ -360,26 +304,6 @@
 			productReference = F565771D1E26F1AF001DEE77 /* Meow.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F565777E1E275184001DEE77 /* Specs */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F56577931E275184001DEE77 /* Build configuration list for PBXNativeTarget "Specs" */;
-			buildPhases = (
-				9DFB26A1AEEEEB0DC419A55B /* [CP] Check Pods Manifest.lock */,
-				F565777B1E275184001DEE77 /* Sources */,
-				F565777C1E275184001DEE77 /* Frameworks */,
-				F565777D1E275184001DEE77 /* Resources */,
-				30C775655BAD34F8BE8CB639 /* [CP] Embed Pods Frameworks */,
-				CC1F49D23D3C0349A330548B /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Specs;
-			productName = Specs;
-			productReference = F565777F1E275184001DEE77 /* Specs.app */;
-			productType = "com.apple.product-type.application";
-		};
 		F5BFF77F1E29168600D60EC8 /* MeowSpecs */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5BFF7871E29168600D60EC8 /* Build configuration list for PBXNativeTarget "MeowSpecs" */;
@@ -414,10 +338,6 @@
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
-					F565777E1E275184001DEE77 = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-					};
 					F5BFF77F1E29168600D60EC8 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
@@ -439,7 +359,6 @@
 			projectRoot = "";
 			targets = (
 				F565771C1E26F1AF001DEE77 /* Meow */,
-				F565777E1E275184001DEE77 /* Specs */,
 				F5BFF77F1E29168600D60EC8 /* MeowSpecs */,
 			);
 		};
@@ -453,13 +372,6 @@
 				F56577301E26F1AF001DEE77 /* LaunchScreen.storyboard in Resources */,
 				F565772D1E26F1AF001DEE77 /* Assets.xcassets in Resources */,
 				F565772B1E26F1AF001DEE77 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F565777D1E275184001DEE77 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,21 +398,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		30C775655BAD34F8BE8CB639 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Specs/Pods-Specs-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		374F143E21C2AE15FB3C78C6 /* [CP] Embed Pods Frameworks */ = {
@@ -533,21 +430,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeowSpecs/Pods-MeowSpecs-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9DFB26A1AEEEEB0DC419A55B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 		A7CAE07814FF967C3C3E3FD2 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -561,21 +443,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeowSpecs/Pods-MeowSpecs-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CC1F49D23D3C0349A330548B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Specs/Pods-Specs-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E746EBC9611D578359D0C374 /* [CP] Check Pods Manifest.lock */ = {
@@ -624,24 +491,6 @@
 				F56577251E26F1AF001DEE77 /* AppDelegate.m in Sources */,
 				F56577221E26F1AF001DEE77 /* main.m in Sources */,
 				F56577731E26F69F001DEE77 /* MeowManager.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F565777B1E275184001DEE77 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F5BFF7741E29158700D60EC8 /* AppDelegate.m in Sources */,
-				F5BFF7751E29158700D60EC8 /* MeowBlindsideModule.m in Sources */,
-				F5BFF7761E29158700D60EC8 /* ViewControllerFactory.m in Sources */,
-				F5BFF7771E29158700D60EC8 /* MeowManager.m in Sources */,
-				F5BFF7781E29158700D60EC8 /* MeowModel.m in Sources */,
-				F5BFF7791E29158700D60EC8 /* MeowTypeProvider.m in Sources */,
-				F5BFF77A1E29158700D60EC8 /* MeowActionProvider.m in Sources */,
-				F5BFF77B1E29158700D60EC8 /* ViewController.m in Sources */,
-				F56577831E275184001DEE77 /* main.mm in Sources */,
-				F5BFF7721E29130F00D60EC8 /* TestBlindsideModule.m in Sources */,
-				F5BFF76E1E27564100D60EC8 /* MeowActionProviderSpec.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -797,32 +646,6 @@
 			};
 			name = Release;
 		};
-		F56577941E275184001DEE77 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B821B343D90D9DF3B9B4E58 /* Pods-Specs.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Specs/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Desmond.Meow.Specs;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		F56577951E275184001DEE77 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA5EA8F9AC0876D0C600B879 /* Pods-Specs.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Specs/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Desmond.Meow.Specs;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 		F5BFF7881E29168600D60EC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8A5F4632425198062E3F2769 /* Pods-MeowSpecs.debug.xcconfig */;
@@ -866,15 +689,6 @@
 			buildConfigurations = (
 				F565774B1E26F1AF001DEE77 /* Debug */,
 				F565774C1E26F1AF001DEE77 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F56577931E275184001DEE77 /* Build configuration list for PBXNativeTarget "Specs" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F56577941E275184001DEE77 /* Debug */,
-				F56577951E275184001DEE77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
